@@ -23,22 +23,22 @@ const props = defineProps({
 let menuItems = [
     {
         text: t('labels.ui_ux'),
-        src: '/public/images/ui.png',
+        src: '/images/ui.png',
         to: 'home.ui-ux'
     },
     {
         text: t('labels.graphic_design'),
-        src: '/public/images/graphic.png',
+        src: '/images/graphic.png',
         to: 'home.graphic-design.flyers'
     },
     {
         text: t('labels.resume'),
-        src: '/public/images/resume.png',
+        src: '/images/resume.png',
         to: 'home.resume'
     },
     {
         text: t('labels.contact_me'),
-        src: '/public/images/contact.png',
+        src: '/images/contact.png',
         link: 'https://wa.me/237655946828'
     }
 ]
