@@ -10,4 +10,9 @@ export default {
     english:'english',
     website:'website',
     figma:'figma',
+    flyers:'flyers',
+    logos:'logos',
+    catalogs:'catalogs',
+    app:'app',
+    web_app:'web application',
 }

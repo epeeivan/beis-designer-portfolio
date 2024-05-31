@@ -1,43 +1,51 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
+
     {
-        path: '/',
+        path: '/home',
         name: 'home',
-        component: import('@/layouts/MainLayout.vue'),
+        component: () => import('@/layouts/MainLayout.vue'),
         children: [
+            {
+                path: '',
+                name: 'home',
+                component: () => import('@/views/Blank.vue'),
+
+            },
+
             {
                 path: 'ui-ux',
                 name: 'home.ui-ux',
-                component: import('@/views/UiUx.vue')
+                component: () => import('@/views/UiUx.vue')
 
             },
             {
                 path: 'graphic-design',
-                component: import('@/views/graphicDesign/Index.vue'),
+                component: () => import('@/views/graphicDesign/Index.vue'),
                 children:
                     [
                         {
                             path: '',
                             name: 'home.graphic-design.flyers',
-                            component: import('@/views/graphicDesign/tabs/Flyers.vue')
+                            component: () => import('@/views/graphicDesign/tabs/Flyers.vue')
                         },
                         {
                             path: 'logos',
                             name: 'home.graphic-design.logos',
-                            component: import('@/views/graphicDesign/tabs/Logos.vue')
+                            component: () => import('@/views/graphicDesign/tabs/Logos.vue')
                         },
                         {
                             path: 'catalog',
                             name: 'home.graphic-design.catalogs',
-                            component: import('@/views/graphicDesign/tabs/Catalogs.vue')
+                            component: () => import('@/views/graphicDesign/tabs/Catalogs.vue')
                         }
                     ]
             },
             {
-                name:'home.resume',
-                path:'resume',
-                component: import('@/views/Resume.vue')
+                name: 'home.resume',
+                path: 'resume',
+                component: () => import('@/views/Resume.vue')
 
             }
         ]

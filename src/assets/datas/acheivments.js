@@ -208,13 +208,7 @@ export default {
                     text:'labels.app'
                 }
             ]
-        },
-        {
-            name: "erp landing",
-            subTitle: "vaui_subtitle",
-            description: "vaui_description",
-            cover: "cover/erp",
-        },
+        }
     ],
 
     web_development: [
