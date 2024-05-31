@@ -17,7 +17,7 @@ function changeTheme() {
 <template>
     <div :class="['flex  ', theme]">
         <sidebar :isSidebar="isSidebar" :theme="theme" @change-theme="changeTheme()" />
-        <div class="p-10  h-screen overflow-y-auto dark:bg-dark-200 dark:text-silver">
+        <div :class="['h-screen overflow-y-auto dark:bg-dark-200 dark:text-silver',isSidebar?'p-10':'']">
             <router-view
           v-slot="{ Component, route }"
         >
