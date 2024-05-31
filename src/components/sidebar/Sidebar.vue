@@ -71,12 +71,12 @@ function changeLang() {
 </script>
 <template>
     <div :class="['flex dark:bg-dark-300 dark:border-r-dark-300 bg-cover bg-center bg-fixed h-screen transition-all ease-in-out duration-500', !isSidebar ? 'min-w-[100%] max-w-[100%]' : 'lg:min-w-[400px] lg:max-w-[400px] border-r-2']"
-        :style="`background-image: url(/public/images/${theme == 'dark' ? 'sidebgDark200.png' : 'sidebg.png'})`">
+        :style="`background-image: url(/images/${theme == 'dark' ? 'sidebgDark200.png' : 'sidebg.png'})`">
         <div
             :class="['m-auto flex flex-col transition-all ease-in-out duration-1000 ', !isSidebar ? 'lg:w-6/12 space-y-5' : 'w-10/12 space-y-5']">
             <ProfileImageVue
                 :class="['mx-auto transition-all ease-in-out duration-500 ', isSidebar ? 'max-w-[200px]' : 'max-w-[300px] ']"
-                src="/public/images/profile.JPG" />
+                src="/images/profile.JPG" />
 
             <div class="flex flex-wrap mx-auto space-y-2 dark:text-silver">
                 <span :class="['block font-ink text-center w-full', !isSidebar ? 'text-3xl ' : 'text-xl']">I am BEBE

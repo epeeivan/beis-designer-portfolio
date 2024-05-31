@@ -9,7 +9,7 @@ defineProps({
 </script>
 <template>
     <div class=" space-y-2">
-        <div class="min-h-[200px] w-full rounded-xl bg-cover bg-silver" :style="`background-image: url(/public/images/${item.cover}.PNG);`"></div>
+        <div class="min-h-[200px] w-full rounded-xl bg-cover bg-silver" :style="`background-image: url(/images/${item.cover}.PNG);`"></div>
         <h1 class="font-medium text-sm">{{ $t(item?.title??'') }}</h1>
         <span class="block my-auto mr-auto">{{ $t(item?.subTitle??'') }}</span>
 
