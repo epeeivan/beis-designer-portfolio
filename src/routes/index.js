@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-
+    {
+        path: '/',
+        redirect: () => {
+            return { name: 'home' };
+        },
+    },
     {
         path: '/home',
         name: 'home',
         component: () => import('@/layouts/MainLayout.vue'),
         children: [
-            {
-                path: '',
-                name: 'home',
-                component: () => import('@/views/Blank.vue'),
 
-            },
 
             {
                 path: 'ui-ux',
