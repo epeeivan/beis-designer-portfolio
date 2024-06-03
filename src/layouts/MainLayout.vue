@@ -15,7 +15,7 @@ function changeTheme() {
 <template>
   <div
     :class="[
-      'flex lg:flex-row h-screen relative ',
+      'flex lg:flex-row h-dvh relative ',
       theme,
       isSidebar ? 'flex-col' : '',
     ]"
@@ -29,7 +29,7 @@ function changeTheme() {
     />
     <div
       :class="[
-        'lg:h-screen h-full overflow-y-auto overflow-x-hidden dark:bg-dark-200 dark:text-silver ',
+        'lg:h-dvh h-full overflow-y-auto overflow-x-hidden dark:bg-dark-200 dark:text-silver ',
         isSidebar ? 'lg:p-10 p-5 w-full ' : '',
       ]"
     >

@@ -73,7 +73,7 @@ function changeLang() {
     :class="[
       'flex border-t-2 dark:border-t-dark-400 lg:border-t-0 dark:bg-dark-300 dark:border-r-dark-300 bg-cover bg-center bg-fixed  transition-all ease-in-out duration-500',
       !isSidebar
-        ? 'min-w-[100%] max-w-[100%] h-screen lg:flex-nowrap flex-wrap'
+        ? 'min-w-[100%] max-w-[100%] h-dvh lg:flex-nowrap flex-wrap'
         : 'flex lg:min-w-[400px] lg:max-w-[400px] border-r-2',
     ]"
     :style="`background-image: url(/images/${

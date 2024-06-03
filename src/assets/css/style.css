@@ -710,6 +710,10 @@ video {
   height: 66.666667%;
 }
 
+.h-dvh {
+  height: 100dvh;
+}
+
 .max-h-\[200px\] {
   max-height: 200px;
 }
@@ -1287,6 +1291,10 @@ video {
 
   .lg\:h-auto {
     height: auto;
+  }
+
+  .lg\:h-dvh {
+    height: 100dvh;
   }
 
   .lg\:w-6\/12 {
