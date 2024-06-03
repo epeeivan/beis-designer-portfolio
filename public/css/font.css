@@ -1,49 +1,47 @@
 @font-face {
-    font-family: 'inder';
-    src: url('../fonts/Inder-Regular.ttf');
-    font-weight: normal;
-  }
+  font-family: "inder";
+  src: url("../fonts/Inder-Regular.ttf");
+  font-weight: normal;
+}
 
-  @font-face {
-    font-family: 'ink Free';
-    src: url('../fonts/Inkfree.ttf');
-  }
-  
+@font-face {
+  font-family: "ink Free";
+  src: url("../fonts/Inkfree.ttf");
+}
 
-  .font-ink{
-    font-family: 'ink Free';
-  }
-  body {
-    font-family: 'inder';
-    font-weight: 400;
-    font-size: 12px;
-  }
-  
-  h1 {
-    font-weight: 700;
-  }
-  
-  /* width */
-  ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  
-  * {
-    scrollbar-width: thin;
-  }
-  
+.font-ink {
+  font-family: "ink Free";
+}
+body {
+  font-family: "inder";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scrollbar-width: thin;
+}

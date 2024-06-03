@@ -3,7 +3,7 @@ import experiences from "./experiences";
 import labels from "./labels";
 
 export default {
-    labels,
-    acheivments,
-    experiences
-}
+  labels,
+  acheivments,
+  experiences,
+};

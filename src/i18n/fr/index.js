@@ -1,5 +1,5 @@
 import labels from "./labels";
 
 export default {
-    labels
-}
+  labels,
+};
