@@ -21,11 +21,12 @@ function changeTheme() {
     ]"
   >
     <!-- <div class="w-screen h-screen absolute bg- blur-2xl"></div> -->
+    <!-- <Preview /> -->
     <sidebar
       :isSidebar="isSidebar"
       :theme="theme"
       @change-theme="changeTheme()"
-      class="order-last lg:order-first lg:order-2"
+      class="order-last lg:order-first order-2"
     />
     <div
       :class="[

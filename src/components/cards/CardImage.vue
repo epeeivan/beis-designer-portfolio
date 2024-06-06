@@ -42,7 +42,7 @@ defineProps({
             <Badge
               v-for="(badge, index) in item.badges"
               :key="`card-badge-${index}`"
-              :text="$t(badge?.text ?? '')"
+              :text="badge.text ? $t(badge.text) : ''"
               :icon="badge?.icon"
               :type="badge?.type"
               :href="badge?.to"

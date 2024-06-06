@@ -19,13 +19,17 @@ defineProps({
         {{ infos?.softwares?.description }}
       </p>
       <div class="flex flex-wrap space-x-10">
-        <img
-          v-for="(software, index) in infos?.softwares?.items"
-          :key="`ui-ux-sofware-${index}`"
-          class="block h-[70px] my-auto"
-          :src="`${software?.img}`"
-          alt=""
-        />
+        <div v-for="(software, index) in infos?.softwares?.items" :key="`ui-ux-sofware-${index}`" class="space-y-2">
+          <img
+            
+            
+            class="block h-[70px] my-auto"
+            :src="`${software?.img}`"
+            alt=""
+          />
+          <span class="block text-center">{{ software?.label }}</span>
+        </div>
+
       </div>
     </div>
     <h1 class="text-lg capitalize font-semibold">

@@ -5,7 +5,7 @@ export default {
       img: "/images/softwares/ui_ux/figma.png",
     },
     {
-      name: "adobe xd",
+      label: "adobe xd",
       img: "/images/softwares/ui_ux/xd.png",
     },
   ],

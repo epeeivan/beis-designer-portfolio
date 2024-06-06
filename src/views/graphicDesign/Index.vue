@@ -7,7 +7,7 @@ const { t } = useI18n();
 
 const infos = {
   softwares: {
-    description: t("labels.software"),
+    description: t("softwares.graphic_design.description"),
     items: softwares.graphic_design,
   },
   headers: [

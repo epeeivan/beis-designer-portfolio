@@ -60,4 +60,47 @@ export default {
     description:
       "We designed the website for the software development company labview.",
   },
+  wed: {
+    title: "Wedding website",
+    subtitle: "Wedding presentation and invitation collection website.",
+    description:
+      "I created a presentation site for the wedding of a private couple. The aim was to present the event but also to allow future guests to offer gifts to the couple and download their tickets.",
+  },
+  danys_dor: {
+    title: "dany's d'or",
+    subtitle: "Flyer of products presentation",
+    description:
+      "For the launch of its products, I was asked to design a flyer presenting them and their various variants.",
+  },
+  '237coachs': {
+    title: "237 COACHS",
+    subtitle: "Design of flyers for a sports group",
+    description:
+      "I worked with the sports group 237COACHS on their communication campaign for the launch of their activities, designing various communications media such as banner flyers and storytelling poster templates.",
+  },
+  ngondo_diane: {
+    title: "Ngondo",
+    subtitle: "Launch flyer",
+    description:
+      "The NGONDO, a traditional organisation of the SAWA people in Cameroon, organises a month-long fair every year leading up to the event. We were therefore called in to support one of the stands at this fair by designing various communication media, including this flyer.",
+  },
+  cems_order:{
+    title: "CEMS ORDER",
+    subtitle: "Cement sales platform",
+    description:
+      "Cems order is a platform for direct communication between cement buyers and suppliers. We worked on designing the platform's interfaces and user experience for the different types of members.",
+  },
+  bewallet_admin: {
+    title: "Bewallet admin",
+    subtitle: "Administration panel for the bewallet platform",
+    description:
+      "This is an electronic wallet giving access to multiple services in Africa. Assisted by a team, we worked on the meticulous design of the interfaces and the visual presentation of sometimes very specific components with the aim of optimising and simplifying as far as possible the interactions and actions of users during their various operations.",
+  },
+  cashier: {
+    title: "Cashier",
+    subtitle: "Receipt validation application",
+    description:
+      "This is a mini web platform designed for the specific needs of a company, enabling remote validation of documents.",
+  },
+
 };

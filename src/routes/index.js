@@ -55,9 +55,20 @@ const routes = [
         ],
       },
       {
-        name: "home.resume",
         path: "resume",
-        component: () => import("@/views/Resume.vue"),
+        component: () => import("@/views/resume/Index.vue"),
+        children: [
+          {
+            path: "",
+            name: "home.resume",
+            component: () => import("@/views/resume/tabs/Experiences.vue"),
+          },
+          {
+            path: "",
+            name: "home.resume.schools",
+            component: () => import("@/views/resume/tabs/Schools.vue"),
+          },
+        ],
       },
     ],
   },

@@ -23,26 +23,30 @@ const props = defineProps({
 let menuItems = [
   {
     text: t("labels.ui_ux"),
-    src: "/images/ui.png",
+    src: "/images/icons/ui-ux/dark.png",
+    dark_src: "/images/icons/ui-ux/light.png",
     to: "home.ui-ux",
   },
   {
     text: t("labels.graphic_design"),
-    src: "/images/graphic.png",
+    src: "/images/icons/graphic/dark.png",
+    dark_src: "/images/icons/graphic/light.png",
     to: "home.graphic-design",
   },
   {
     text: t("labels.resume"),
-    src: "/images/resume.png",
+    src: "/images/icons/resume/dark.png",
+    dark_src: "/images/icons/resume/light.png",
     to: "home.resume",
   },
   {
     text: t("labels.contact_me"),
-    src: "/images/contact.png",
+    src: "/images/icons/contact/dark.png",
+    dark_src: "/images/icons/contact/light.png",
     link: "https://wa.me/237655946828",
   },
 ];
-
+const isDark = computed(() => props.theme === "dark");
 function reduceSidebar() {
   if (!isSidebar.value) {
     emit("changeSideMode");
@@ -77,7 +81,7 @@ function changeLang() {
         : 'flex lg:min-w-[400px] lg:max-w-[400px] border-r-2',
     ]"
     :style="`background-image: url(/images/${
-      theme == 'dark' ? 'sidebgDark200.png' : 'sidebg.png'
+      isDark ? 'sidebgDark200.png' : 'sidebg.png'
     })`"
   >
     <!-- container -->
@@ -95,30 +99,34 @@ function changeLang() {
           isSidebar ? 'lg:block hidden' : 'lg:block',
         ]"
       >
-        <ProfileImageVue
-          :class="[
-            'mx-auto block transition-all ease-in-out duration-500 ',
-            isSidebar ? 'max-w-[200px]' : 'lg:max-w-[300px] max-w-[100px]',
-          ]"
-          src="/images/profile.JPG"
-        />
+        <div class="lg:block flex lg:space-y-5">
+          <ProfileImageVue
+            :class="[
+              'mx-auto block transition-all ease-in-out duration-500 ',
+              isSidebar ? 'max-w-[200px]' : 'lg:max-w-[300px] max-w-[200px]',
+            ]"
+            src="/images/profile.JPG"
+          />
 
-        <div class="flex flex-wrap mx-auto space-y-2 dark:text-silver">
-          <span
-            :class="[
-              'block font-ink text-center w-full',
-              !isSidebar ? 'lg:text-3xl text-2xl ' : 'text-xl',
-            ]"
-            >I am BEBE EPEE IVAN SAMPI
-          </span>
-          <span
-            :class="[
-              'block font-ink text-center font-bold w-full',
-              !isSidebar ? 'text-2xl ' : 'text-lg',
-            ]"
+          <div
+            class="flex flex-wrap mx-auto space-y-2 dark:text-silver my-auto"
           >
-            {{ $t("labels.ui_ux_designer") }}
-          </span>
+            <span
+              :class="[
+                'block font-ink text-center w-full',
+                !isSidebar ? 'lg:text-3xl text-xl ' : 'text-xl',
+              ]"
+              >I am BEBE EPEE IVAN SAMPI
+            </span>
+            <span
+              :class="[
+                'block font-ink text-center font-bold w-full',
+                !isSidebar ? 'lg:text-2xl text-xl ' : 'text-lg',
+              ]"
+            >
+              {{ $t("labels.ui_ux_designer") }}
+            </span>
+          </div>
         </div>
 
         <p
@@ -127,10 +135,7 @@ function changeLang() {
             isSidebar ? 'lg:w-[300px]' : 'lg:w-[500px]',
           ]"
         >
-          Lorem ipsum dolor sit amet consectetur. Porttitor pharetra consequat
-          vulputate molestie vehicula risus. Ut ac enim dui gravida sit tellus
-          magna sem. Diam semper eu dapibus nulla dis diam eget. Mattis auctor
-          fermentum ut et consectetur in luctus morbi curabitur.
+          {{ $t("labels.profile_description") }}
         </p>
       </div>
 
@@ -138,7 +143,7 @@ function changeLang() {
         :class="[
           'grid',
           !isSidebar
-            ? 'lg:grid-cols-4 lg:gap-4 gap-2 grid-cols-1'
+            ? 'lg:grid-cols-4 lg:gap-4 gap-2 grid-cols-2'
             : 'lg:grid-cols-1 grid-cols-4 gap-2',
         ]"
       >
@@ -147,6 +152,7 @@ function changeLang() {
           :key="`side-item-${index}`"
           :item="item"
           :is-sidebar="isSidebar"
+          :is-dark="isDark"
           @click="$emit('changeSideMode')"
         />
       </div>
@@ -158,7 +164,11 @@ function changeLang() {
               <flag iso="gb" />
             </template>
           </Badge>
-          <Badge icon="Sun" text="light" @click="$emit('changeTheme')" />
+          <Badge
+            :icon="isDark ? 'Moon' : 'Sun'"
+            :text="$t(isDark ? 'labels.dark' : 'labels.light')"
+            @click="$emit('changeTheme')"
+          />
         </div>
       </div>
     </div>
