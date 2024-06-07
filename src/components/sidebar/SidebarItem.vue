@@ -35,7 +35,7 @@ const isActiveRoute = computed(() => {
     :to="{ name: item?.to ?? '' }"
     :class="['capitalize',
       !isSidebar
-        ? 'lg:space-y-2 space-x-2 lg:space-x-0 lg:block  lg:dark:bg-transparent  lg:shadow-none rounded-xl lg:border-0 border-2 border-transparent hover:border-base_yellow'
+        ? 'lg:space-y-2 space-x-2 lg:space-x-0 lg:block  lg:dark:bg-transparent  lg:shadow-none rounded-xl lg:border-0 border-2 border-transparent '
         : '',
     ]"
   >
