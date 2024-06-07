@@ -72,7 +72,7 @@ export default {
     description:
       "For the launch of its products, I was asked to design a flyer presenting them and their various variants.",
   },
-  '237coachs': {
+  "237coachs": {
     title: "237 COACHS",
     subtitle: "Design of flyers for a sports group",
     description:
@@ -84,7 +84,7 @@ export default {
     description:
       "The NGONDO, a traditional organisation of the SAWA people in Cameroon, organises a month-long fair every year leading up to the event. We were therefore called in to support one of the stands at this fair by designing various communication media, including this flyer.",
   },
-  cems_order:{
+  cems_order: {
     title: "CEMS ORDER",
     subtitle: "Cement sales platform",
     description:
@@ -102,5 +102,50 @@ export default {
     description:
       "This is a mini web platform designed for the specific needs of a company, enabling remote validation of documents.",
   },
-
+  ahafreight: {
+    title: "ahafreight",
+    subtitle: "Transit company",
+  },
+  "237coachs_logo": {
+    title: "237coachs",
+    subtitle: "logo 237coachs",
+  },
+  apibundle: {
+    title: "api bundle",
+    subtitle: "Api for locating ip addresses ",
+  },
+  dghome: {
+    title: "dg home",
+    subtitle: "Logo of the luxury accommodation rental group. ",
+  },
+  firestore: {
+    title: "firestore",
+    subtitle: "fireshield store logo.",
+  },
+  vitteck_logo: {
+    title: "vitteck",
+    subtitle: "vitteck digital agency",
+  },
+  oas: {
+    title: "oas",
+    subtitle: "Academic programme planning and monitoring platform",
+  },
+  ahafreight_brochure: {
+    title: "ahafreight",
+    subtitle: "Services brochure",
+    description:
+      "We have designed a brochure that summarises the ahafreight company's vision, products and services.",
+  },
+  concord_brochure: {
+    title: "concord",
+    subtitle: "Concord brochure",
+    description:
+      "We have designed a brochure that summarises the concord company's vision, products and services.",
+  },
+  fireshield_formation_catalog: {
+    title: "Fireshield",
+    subtitle: "Training catalogue",
+    description:
+      "We have designed a catalogue that summarises the wide range of training courses offered by the company.",
+  },
 };

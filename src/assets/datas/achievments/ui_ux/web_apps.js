@@ -6,16 +6,8 @@ export default [
     cover: "achievments/ui_ux/web_apps/cems_order.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.web_app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -26,16 +18,8 @@ export default [
     cover: "achievments/ui_ux/web_apps/bewallet_admin.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.web_app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -46,16 +30,10 @@ export default [
     cover: "achievments/ui_ux/web_apps/multipresta.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
+        icon: "Figma",
         type: "yellow",
-        icon: "Link",
-        text: "labels.web_app",
+        text: "labels.open_figma",
+        to: "https://www.figma.com/design/lwARiBPZ4oD4kHYOji7fPk/vaui?node-id=1044-12589&t=lzeEFMgwivA846By-0",
       },
     ],
   },
@@ -66,16 +44,8 @@ export default [
     cover: "achievments/ui_ux/web_apps/be_refill.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.website",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -86,16 +56,8 @@ export default [
     cover: "achievments/ui_ux/web_apps/cashier.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.website",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },

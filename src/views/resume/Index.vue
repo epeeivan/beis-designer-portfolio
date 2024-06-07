@@ -8,12 +8,12 @@ const headers = ref([
   {
     to: "home.resume",
     text: t("labels.experiences"),
-    count: 4,
+    count: 3,
   },
   {
     to: "home.resume.schools",
     text: t("labels.schools"),
-    count: 8,
+    count: 4,
   },
 ]);
 </script>

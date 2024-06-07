@@ -28,7 +28,7 @@ const props = defineProps({
     </div>
     <!--  -->
     <div class="space-y-2 lg:pl-5 lg:ml-[100px]">
-      <p>{{ $t(item.description) }}</p>
+      <p>{{ item.description ? $t(item.description) : "" }}</p>
     </div>
   </div>
 </template>

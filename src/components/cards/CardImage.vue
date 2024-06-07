@@ -46,6 +46,7 @@ defineProps({
               :icon="badge?.icon"
               :type="badge?.type"
               :href="badge?.to"
+              @click.stop=""
             />
           </div>
         </slot>
@@ -53,9 +54,11 @@ defineProps({
     </div>
     <p class="">
       {{
-        $t(item?.description).length > 100
-          ? `${$t(item?.description).substr(0, 100)}...`
-          : $t(item?.description)
+        item.description
+          ? $t(item?.description).length > 100
+            ? `${$t(item?.description).substr(0, 100)}...`
+            : $t(item?.description)
+          : ""
       }}
     </p>
   </div>

@@ -735,6 +735,11 @@ video {
   width: fit-content;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -746,6 +751,16 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[min-content\] {
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .min-w-\[100\%\] {

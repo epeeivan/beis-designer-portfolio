@@ -6,16 +6,8 @@ export default [
     cover: "achievments/ui_ux/apps/myhome237.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -26,16 +18,8 @@ export default [
     cover: "achievments/ui_ux/apps/stellar.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -46,16 +30,8 @@ export default [
     cover: "achievments/ui_ux/apps/cems_order.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },
@@ -66,16 +42,8 @@ export default [
     cover: "achievments/ui_ux/apps/cashier.png",
     badges: [
       {
-        icon: "Globe",
-      },
-      {
-        icon: "Pencil",
-        text: "labels.figma",
-      },
-      {
-        type: "yellow",
-        icon: "Link",
-        text: "labels.app",
+        icon: "FileX",
+        text: "labels.figma_owner",
       },
     ],
   },

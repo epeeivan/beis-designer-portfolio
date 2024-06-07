@@ -22,25 +22,25 @@ const props = defineProps({
 
 let menuItems = [
   {
-    text: t("labels.ui_ux"),
+    text: "labels.ui_ux",
     src: "/images/icons/ui-ux/dark.png",
     dark_src: "/images/icons/ui-ux/light.png",
     to: "home.ui-ux",
   },
   {
-    text: t("labels.graphic_design"),
+    text: "labels.graphic_design",
     src: "/images/icons/graphic/dark.png",
     dark_src: "/images/icons/graphic/light.png",
     to: "home.graphic-design",
   },
   {
-    text: t("labels.resume"),
+    text: "labels.resume",
     src: "/images/icons/resume/dark.png",
     dark_src: "/images/icons/resume/light.png",
     to: "home.resume",
   },
   {
-    text: t("labels.contact_me"),
+    text: "labels.contact_me",
     src: "/images/icons/contact/dark.png",
     dark_src: "/images/icons/contact/light.png",
     link: "https://wa.me/237655946828",
@@ -54,23 +54,19 @@ function reduceSidebar() {
 }
 
 function changeLang() {
-  // alert(locale.value)
-  // if (locale.value=='en') {
-  locale.value = "fr";
+  switch (true) {
+    case locale.value == "en":
+      locale.value = "fr";
+      break;
 
-  // }
-  // switch (true) {
-  //     case locale.value == 'en':
-  //     locale.value = 'fr'
-  //     alert()
-  //         break;
+    default:
+      locale.value = "en";
 
-  //     default:
-  //     locale.value = 'en'
-
-  //         break;
-  // }
+      break;
+  }
 }
+
+const isFr = computed(() => locale.value === "fr");
 </script>
 <template>
   <div
@@ -116,7 +112,8 @@ function changeLang() {
                 'block font-ink text-center w-full',
                 !isSidebar ? 'lg:text-3xl text-xl ' : 'text-xl',
               ]"
-              >I am BEBE EPEE IVAN SAMPI
+            >
+              {{ $t("labels.i_am") }} BEBE EPEE IVAN SAMPI
             </span>
             <span
               :class="[
@@ -159,9 +156,9 @@ function changeLang() {
 
       <div class="flex">
         <div class="mx-auto space-x-2 flex">
-          <Badge flag="it" text="en">
+          <Badge flag="it" :text="isFr ? 'fr' : 'en'" @click="changeLang()">
             <template #flag>
-              <flag iso="gb" />
+              <flag :iso="!isFr ? 'gb' : 'fr'" />
             </template>
           </Badge>
           <Badge

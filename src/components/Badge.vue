@@ -31,6 +31,7 @@ const hasIcon = computed(() => props.icon);
 
 <template>
   <a
+    target="blank"
     v-bind="$attrs"
     :class="[
       ' h-min space-x-2 p-2 text-xs rounded-lg text-dark-100 flex w-min font-semibold py-1',
@@ -39,6 +40,6 @@ const hasIcon = computed(() => props.icon);
   >
     <slot name="flag" />
     <Icon v-if="hasIcon" :name="icon" :stroke-width="2" :size="15" />
-    <span v-if="text" class="block">{{ text }}</span>
+    <span v-if="text" class="block w-max">{{ text }}</span>
   </a>
 </template>

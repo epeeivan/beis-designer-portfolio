@@ -55,16 +55,16 @@ const isActiveRoute = computed(() => {
         ]"
       />
       <span v-if="isSidebar" class="block my-auto lg:text-right text-center">
-        <span class="lg:block hidden">{{ item.text }}</span>
+        <span class="lg:block hidden">{{ $t(item.text) }}</span>
         <span class="block lg:hidden">{{
-          item.text.split(" ")[0].substr(0, 7)
+          $t(item.text).split(" ")[0].substr(0, 7)
         }}</span>
       </span>
     </div>
     <span
       v-if="!isSidebar"
       class="block dark:text-silver text-center capitalize my-auto lg:text-lg"
-      >{{ item.text }}</span
+      >{{ $t(item.text) }}</span
     >
   </SidebarItemBase>
 </template>

@@ -1,4 +1,5 @@
 export default {
+  i_am: "i am",
   software: "softwares",
   acheivments: "acheivments",
   graphic_design: "graphic design",
@@ -22,6 +23,11 @@ export default {
   dark: "dark",
   web_app: "web application",
   web_apps: "web applications",
+  experiences: "experiences",
+  schools: "schools",
   profile_description:
     "😊Hello and welcome.I've been thinking about you throughout the design of this portfolio so please feel free to browse intuitively.",
+  figma_owner: "figma owner",
+  see_website: "see website",
+  open_figma: "open in figma",
 };

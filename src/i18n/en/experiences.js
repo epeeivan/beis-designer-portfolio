@@ -1,26 +1,26 @@
 export default {
   lab2view: {
     title: "LAB2VIEW",
-    subtitle: "Designer Figma,Intégrateur Web tailwind,vue js",
-    period: "Septembre 2022 - Present ",
-    location: "Douala, CAMEROUN",
+    subtitle: "Designer Figma,Web integrator tailwind,vue js",
+    period: "September 2022 - Now ",
+    location: "Douala, CAMEROON",
     description:
-      "Proposition des interfaces utilisateurs des produits de l’entreprise,Conception des logos des produits de l’entreprise,Production du code des interfaces en accord avec les designs.",
+      "Proposing user interfaces for the company's products,Designing logos for the company's products,Producing interface code in line with the designs.",
   },
   fireshield: {
     title: "Fireshield Security",
     subtitle: "Graphic designer",
-    period: "Février 2022 - Juillet ",
-    location: "Douala, CAMEROUN",
+    period: "Febuary 2022 - July ",
+    location: "Douala, CAMEROON",
     description:
-      "•	Conception des éléments graphiques et des supports de communication (flyer, logo, catalogues...).",
+      "Design of graphic elements and communication media (flyers, logos, catalogues, etc.).",
   },
   vitteck: {
     title: "Vitteck Agency",
     subtitle: "Graphic designer",
-    period: "Oct 2018 - Sep 2021 ",
+    period: "October 2018 - September 2021 ",
     location: "Douala, CAMEROUN",
     description:
-      "En tant que développeur web fullstack nous nous attelions à la mise sur pieds de mises à jours fonctionnelles de solutions logicielle existantes, ainsi qu'à l'amélioration de l'expérience utilisateur à travers l'évolution de la presentation des contenus.",
+      "We designed various media and graphic elements for the company's clients.",
   },
 };

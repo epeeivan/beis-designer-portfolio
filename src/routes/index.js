@@ -64,7 +64,7 @@ const routes = [
             component: () => import("@/views/resume/tabs/Experiences.vue"),
           },
           {
-            path: "",
+            path: "schools",
             name: "home.resume.schools",
             component: () => import("@/views/resume/tabs/Schools.vue"),
           },
