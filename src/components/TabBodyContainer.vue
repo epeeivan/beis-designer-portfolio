@@ -23,7 +23,6 @@ const selectedItem = ref(null);
 
 function setSelectedItem(item = null) {
   selectedItem.value = item;
-
 }
 </script>
 

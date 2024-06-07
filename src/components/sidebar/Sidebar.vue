@@ -156,12 +156,18 @@ const isFr = computed(() => locale.value === "fr");
 
       <div class="flex">
         <div class="mx-auto space-x-2 flex">
-          <Badge flag="it" :text="isFr ? 'fr' : 'en'" @click="changeLang()">
+          <Badge
+            class="cursor-pointer"
+            flag="it"
+            :text="isFr ? 'fr' : 'en'"
+            @click="changeLang()"
+          >
             <template #flag>
               <flag :iso="!isFr ? 'gb' : 'fr'" />
             </template>
           </Badge>
           <Badge
+            class="cursor-pointer"
             :icon="isDark ? 'Moon' : 'Sun'"
             :text="$t(isDark ? 'labels.dark' : 'labels.light')"
             @click="$emit('changeTheme')"

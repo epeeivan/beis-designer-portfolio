@@ -27,7 +27,7 @@ export default {
   schools: "schools",
   profile_description:
     "😊Salut et bienvenu.J’ai pensé à vous tout au long de la conception de ce portfolio alors, sentez-vous libre de naviguer à l’intuition.",
-    figma_owner: "figma propriétaire",
-    see_website: "voir le site",
-    open_figma: "ouvrir dans figma",
+  figma_owner: "figma propriétaire",
+  see_website: "voir le site",
+  open_figma: "ouvrir dans figma",
 };
