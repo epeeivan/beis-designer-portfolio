@@ -6,7 +6,7 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const mode = ref("sidebar");
 const isSidebar = computed(() => route.name !== "home");
-const theme = ref("light");
+const theme = ref("dark");
 
 function changeTheme() {
   theme.value = theme.value == "dark" ? "light" : "dark";
@@ -26,7 +26,7 @@ function changeTheme() {
       :isSidebar="isSidebar"
       :theme="theme"
       @change-theme="changeTheme()"
-      class="order-last lg:order-first order-2"
+      class="order-last lg:order-first "
     />
     <div
       :class="[

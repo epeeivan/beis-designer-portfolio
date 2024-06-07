@@ -33,7 +33,7 @@ const isActiveRoute = computed(() => {
     :is-link="!item.to"
     :href="item?.link ?? ''"
     :to="{ name: item?.to ?? '' }"
-    :class="[
+    :class="['capitalize',
       !isSidebar
         ? 'lg:space-y-2 space-x-2 lg:space-x-0 lg:block  lg:dark:bg-transparent  lg:shadow-none rounded-xl lg:border-0 border-2 border-transparent hover:border-base_yellow'
         : '',

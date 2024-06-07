@@ -20,7 +20,7 @@ const isActiveRoute = computed(() => {
   <router-link
     :to="{ name: item.to }"
     :class="[
-      'p-1  flex space-x-2 rounded-[5px] border ',
+      'p-1 capitalize  flex space-x-2 rounded-[5px] border ',
       isActiveRoute
         ? 'bg-base_yellow border-dark-100 dark:text-dark-300 dark:border-base_yellow'
         : 'bg-white dark:bg-dark-300 border-transparent',

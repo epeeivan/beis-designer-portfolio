@@ -154,10 +154,10 @@ const isFr = computed(() => locale.value === "fr");
         />
       </div>
 
-      <div class="flex">
+      <div class="flex capitalize">
         <div class="mx-auto space-x-2 flex">
           <Badge
-            class="cursor-pointer"
+            class="cursor-pointer dark:bg-dark-400"
             flag="it"
             :text="isFr ? 'fr' : 'en'"
             @click="changeLang()"
@@ -167,7 +167,8 @@ const isFr = computed(() => locale.value === "fr");
             </template>
           </Badge>
           <Badge
-            class="cursor-pointer"
+            :type="isDark?'':'yellow'"
+            :class="['cursor-pointer ',isDark?' dark:bg-dark-400':'']"
             :icon="isDark ? 'Moon' : 'Sun'"
             :text="$t(isDark ? 'labels.dark' : 'labels.light')"
             @click="$emit('changeTheme')"

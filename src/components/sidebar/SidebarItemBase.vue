@@ -10,7 +10,7 @@ defineProps({
   <router-link v-if="!isLink" v-bind="$attrs">
     <slot />
   </router-link>
-  <a v-else v-bind="$attrs">
+  <a v-else v-bind="$attrs" target="blank">
     <slot />
   </a>
 </template>

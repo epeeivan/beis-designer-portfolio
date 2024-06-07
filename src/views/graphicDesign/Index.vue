@@ -14,7 +14,7 @@ const infos = {
     {
       to: "home.graphic-design",
       text: t("labels.flyers"),
-      count: 8,
+      count: 3,
     },
     {
       to: "home.graphic-design.logos",
@@ -24,7 +24,7 @@ const infos = {
     {
       to: "home.graphic-design.catalogs",
       text: t("labels.catalogs"),
-      count: 4,
+      count: 3,
     },
   ],
 };

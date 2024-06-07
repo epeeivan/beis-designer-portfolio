@@ -14,12 +14,12 @@ const infos = {
     {
       to: "home.ui-ux",
       text: t("labels.websites"),
-      count: 8,
+      count: 9,
     },
     {
       to: "home.ui-ux.web-app",
       text: t("labels.web_apps"),
-      count: 8,
+      count: 5,
     },
     {
       to: "home.ui-ux.apps",
