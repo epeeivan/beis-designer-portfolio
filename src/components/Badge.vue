@@ -31,7 +31,8 @@ const hasIcon = computed(() => props.icon);
 
 <template>
   <a
-    target="blank"
+    target="_blank"
+    rel="noopener noreferrer"
     v-bind="$attrs"
     :class="[
       ' h-min space-x-2 p-2 text-xs rounded-lg text-dark-100 flex w-min font-semibold py-1',
