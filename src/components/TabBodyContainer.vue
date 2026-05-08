@@ -12,7 +12,7 @@ defineProps({
   },
   items: {
     type: Array,
-    default: [],
+    default: () => [],
   },
 });
 const isDetailsShowed = computed(() => {
@@ -36,7 +36,7 @@ function setSelectedItem(item = null) {
       >
         <CardImage
           v-for="(item, index) in items"
-          :key="`${title}-acheivments-${index}`"
+          :key="`${title}-achievements-${index}`"
           :item="item"
           @click="setSelectedItem(item)"
         />

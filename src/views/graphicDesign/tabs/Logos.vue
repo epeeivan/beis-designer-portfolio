@@ -1,5 +1,5 @@
 <script setup>
-import logos from "@/assets/datas/achievments/graphic_design/logos.js";
+import logos from "@/assets/datas/achievements/graphic_design/logos.js";
 import TabBodyContainer from "@/components/TabBodyContainer.vue";
 </script>
 <template>

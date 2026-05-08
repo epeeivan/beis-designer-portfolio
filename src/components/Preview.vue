@@ -6,7 +6,7 @@ defineEmits(["hide-details"]);
 defineProps({
   item: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
 });
 </script>

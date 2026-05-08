@@ -12,15 +12,15 @@ const props = defineProps({
   },
   item: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
   isSidebar: {
     type: Boolean,
-    default: "",
+    default: false,
   },
   isDark: {
     type: Boolean,
-    default: "",
+    default: false,
   },
 });
 const isActiveRoute = computed(() => {

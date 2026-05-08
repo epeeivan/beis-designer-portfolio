@@ -1,40 +1,29 @@
 <script setup>
 import Sidebar from "@/components/sidebar/Sidebar.vue";
-import { computed, ref } from "vue";
+import { computed } from "vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();
-const mode = ref("sidebar");
 const isSidebar = computed(() => route.name !== "home");
-const theme = ref("dark");
-
-function changeTheme() {
-  theme.value = theme.value == "dark" ? "light" : "dark";
-}
 </script>
 <template>
   <div
     :class="[
-      'flex lg:flex-row h-dvh relative ',
-      theme,
+      'flex lg:flex-row h-dvh relative dark:bg-dark-200 dark:text-silver',
       isSidebar ? 'flex-col' : '',
     ]"
   >
-    <!-- <div class="w-screen h-screen absolute bg- blur-2xl"></div> -->
-    <!-- <Preview /> -->
-    <sidebar
-      :isSidebar="isSidebar"
-      :theme="theme"
-      @change-theme="changeTheme()"
-      class="order-last lg:order-first "
+    <Sidebar
+      :is-sidebar="isSidebar"
+      class="order-last lg:order-first"
     />
     <div
       :class="[
-        'lg:h-dvh h-full overflow-y-auto overflow-x-hidden dark:bg-dark-200 dark:text-silver ',
+        'lg:h-dvh h-full overflow-y-auto overflow-x-hidden',
         isSidebar ? 'lg:p-10 p-5 w-full ' : '',
       ]"
     >
-      <router-view v-slot="{ Component, route }">
+      <router-view v-slot="{ Component }">
         <transition name="slide" mode="out-in">
           <component :is="Component"></component>
         </transition>
@@ -60,5 +49,12 @@ function changeTheme() {
   margin-left: -10px;
   opacity: 0;
   transform: translateX(-30deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide-enter-active,
+  .slide-leave-active {
+    transition: none;
+  }
 }
 </style>

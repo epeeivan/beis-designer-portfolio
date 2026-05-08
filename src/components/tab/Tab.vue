@@ -3,7 +3,7 @@ import TabItem from "./TabItem.vue";
 defineProps({
   headers: {
     type: Array,
-    default: [],
+    default: () => [],
   },
 });
 </script>

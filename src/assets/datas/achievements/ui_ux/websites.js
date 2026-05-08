@@ -1,10 +1,10 @@
 export default [
   {
-    title: "acheivments.betmomo.title",
-    subTitle: "acheivments.betmomo.subtitle",
-    description: "acheivments.betmomo.description",
+    title: "achievements.betmomo.title",
+    subTitle: "achievements.betmomo.subtitle",
+    description: "achievements.betmomo.description",
     // figma_text:"open_figma",
-    cover: "achievments/ui_ux/websites/betfest.png",
+    cover: "achievements/ui_ux/websites/betfest.png",
     badges: [
       {
         icon: "FileX",
@@ -13,11 +13,11 @@ export default [
     ],
   },
   {
-    title: "acheivments.betmomo.title",
-    subTitle: "acheivments.betmomo.subtitle",
-    description: "acheivments.betmomo.description",
+    title: "achievements.betmomo.title",
+    subTitle: "achievements.betmomo.subtitle",
+    description: "achievements.betmomo.description",
     // figma_text:"open_figma",
-    cover: "achievments/ui_ux/websites/nfolio.png",
+    cover: "achievements/ui_ux/websites/nfolio.png",
     badges: [
       {
         icon: "ExternalLink",
@@ -33,11 +33,11 @@ export default [
     ],
   },
   {
-    title: "acheivments.wed.title",
-    subTitle: "acheivments.wed.subtitle",
-    description: "acheivments.wed.description",
+    title: "achievements.wed.title",
+    subTitle: "achievements.wed.subtitle",
+    description: "achievements.wed.description",
     // figma_text:"open_figma",
-    cover: "achievments/ui_ux/websites/wed.png",
+    cover: "achievements/ui_ux/websites/wed.png",
     badges: [
       {
         icon: "FileX",
@@ -46,10 +46,10 @@ export default [
     ],
   },
   {
-    title: "acheivments.mesagoo.title",
-    subTitle: "acheivments.mesagoo.subtitle",
-    description: "acheivments.mesagoo.description",
-    cover: "achievments/ui_ux/websites/mesagoo.png",
+    title: "achievements.mesagoo.title",
+    subTitle: "achievements.mesagoo.subtitle",
+    description: "achievements.mesagoo.description",
+    cover: "achievements/ui_ux/websites/mesagoo.png",
     badges: [
       {
         icon: "FileX",
@@ -58,10 +58,10 @@ export default [
     ],
   },
   {
-    title: "acheivments.mesagoo.title",
-    subTitle: "acheivments.mesagoo.subtitle",
-    description: "acheivments.mesagoo.description",
-    cover: "achievments/ui_ux/websites/myhome.png",
+    title: "achievements.mesagoo.title",
+    subTitle: "achievements.mesagoo.subtitle",
+    description: "achievements.mesagoo.description",
+    cover: "achievements/ui_ux/websites/myhome.png",
     badges: [
       {
         icon: "FileX",
@@ -70,10 +70,10 @@ export default [
     ],
   },
   {
-    title: "acheivments.cmb.title",
-    subTitle: "acheivments.cmb.subtitle",
-    description: "acheivments.cmb.description",
-    cover: "achievments/ui_ux/websites/cmb.png",
+    title: "achievements.cmb.title",
+    subTitle: "achievements.cmb.subtitle",
+    description: "achievements.cmb.description",
+    cover: "achievements/ui_ux/websites/cmb.png",
     badges: [
       {
         icon: "Figma",
@@ -85,11 +85,11 @@ export default [
   },
 
   {
-    title: "acheivments.portfolio.title",
-    subTitle: "acheivments.portfolio.subtitle",
-    description: "acheivments.portfolio.description",
+    title: "achievements.portfolio.title",
+    subTitle: "achievements.portfolio.subtitle",
+    description: "achievements.portfolio.description",
     figma_text: "open_figma",
-    cover: "achievments/ui_ux/websites/ofolio.png",
+    cover: "achievements/ui_ux/websites/ofolio.png",
     badges: [
       {
         icon: "ExternalLink",
@@ -105,10 +105,10 @@ export default [
     ],
   },
   {
-    title: "acheivments.vaui.title",
-    subTitle: "acheivments.vaui.subtitle",
-    description: "acheivments.vaui.description",
-    cover: "achievments/ui_ux/websites/vaui.png",
+    title: "achievements.vaui.title",
+    subTitle: "achievements.vaui.subtitle",
+    description: "achievements.vaui.description",
+    cover: "achievements/ui_ux/websites/vaui.png",
     badges: [
       {
         icon: "Figma",
@@ -119,10 +119,10 @@ export default [
     ],
   },
   {
-    title: "acheivments.lab2view_website.title",
-    subTitle: "acheivments.lab2view_website.subtitle",
-    description: "acheivments.lab2view_website.description",
-    cover: "achievments/ui_ux/websites/l2vwebsite.png",
+    title: "achievements.lab2view_website.title",
+    subTitle: "achievements.lab2view_website.subtitle",
+    description: "achievements.lab2view_website.description",
+    cover: "achievements/ui_ux/websites/l2vwebsite.png",
     badges: [
       {
         icon: "ExternalLink",
