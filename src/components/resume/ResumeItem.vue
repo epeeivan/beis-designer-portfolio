@@ -13,7 +13,11 @@ const props = defineProps({
       <div
         class="bg-silver flex-col dark:bg-dark-300 rounded-lg min-w-[100px] max-w-[100px] h-[100px] w-full flex"
       >
-        <img :src="item.logo" alt="" class="m-auto lg:w-1/2 lg:h-auto h-2/3" />
+        <img
+          :src="item.logo"
+          :alt="$t(item.title)"
+          class="m-auto lg:w-1/2 lg:h-auto h-2/3"
+        />
       </div>
       <div class="my-auto">
         <h1 class="text-lg font-bold dark:text-base_yellow">

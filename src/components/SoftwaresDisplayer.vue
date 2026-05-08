@@ -21,10 +21,11 @@ defineProps({
     <div class="flex flex-wrap space-x-10">
       <img
         v-for="(software, index) in softwares"
-        :key="`ui-ux-sofware-${index}`"
+        :key="`ui-ux-software-${index}`"
         class="block h-[70px] my-auto"
         :src="`/images/softwares/graphic_design/${software?.img}.png`"
-        alt=""
+        :alt="software?.label ?? software?.img"
+        loading="lazy"
       />
     </div>
   </div>
