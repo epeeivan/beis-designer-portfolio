@@ -27,7 +27,8 @@ defineProps({
           <img
             class="block h-[70px] my-auto"
             :src="`${software?.img}`"
-            alt=""
+            :alt="software?.label ?? ''"
+            loading="lazy"
           />
           <span class="block text-center">{{ software?.label }}</span>
         </div>

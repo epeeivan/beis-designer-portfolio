@@ -27,7 +27,8 @@ defineProps({
         v-if="item.img"
         class="w-2/4 block m-auto"
         :src="`/images/${item?.img}`"
-        alt=""
+        :alt="$t(item?.title ?? '')"
+        loading="lazy"
       />
     </div>
     <h1 class="font-semibold text-sm">{{ $t(item?.title ?? "") }}</h1>
