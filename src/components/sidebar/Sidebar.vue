@@ -1,23 +1,24 @@
 <script setup>
 import { computed } from "vue";
-import ProfileImageVue from "./ProfileImage.vue";
+import ProfileImage from "./ProfileImage.vue";
 import SidebarItem from "./SidebarItem.vue";
 import Badge from "@/components/Badge.vue";
-import { useI18n } from "vue-i18n";
+import { useTheme } from "@/composables/useTheme";
+import { useLocale } from "@/composables/useLocale";
 
-const { t, locale } = useI18n({ useScope: "global" });
-
-defineEmits(["changeSideMode", "changeTheme"]);
-const props = defineProps({
+defineEmits(["changeSideMode"]);
+defineProps({
   isSidebar: {
     type: Boolean,
     default: false,
   },
-  theme: {
-    type: String,
-    default: "dark",
-  },
 });
+
+const { theme, toggle: toggleTheme } = useTheme();
+const { locale, toggle: toggleLocale } = useLocale();
+
+const isDark = computed(() => theme.value === "dark");
+const isFr = computed(() => locale.value === "fr");
 
 const menuItems = [
   {
@@ -45,22 +46,6 @@ const menuItems = [
     link: "https://wa.me/237655946828",
   },
 ];
-const isDark = computed(() => props.theme === "dark");
-
-function changeLang() {
-  switch (true) {
-    case locale.value == "en":
-      locale.value = "fr";
-      break;
-
-    default:
-      locale.value = "en";
-
-      break;
-  }
-}
-
-const isFr = computed(() => locale.value === "fr");
 </script>
 <template>
   <div
@@ -74,7 +59,6 @@ const isFr = computed(() => locale.value === "fr");
       isDark ? 'sidebgDark200.png' : 'sidebg.png'
     })`"
   >
-    <!-- container -->
     <div
       :class="[
         'm-auto flex flex-col transition-all ease-in-out duration-1000 ',
@@ -89,8 +73,8 @@ const isFr = computed(() => locale.value === "fr");
           isSidebar ? 'lg:block hidden' : 'lg:block',
         ]"
       >
-        <div class="lg:block flex lg:space-y-5">
-          <ProfileImageVue
+        <div class="flex lg:block lg:space-y-5">
+          <ProfileImage
             :class="[
               'mx-auto block transition-all ease-in-out duration-500 ',
               isSidebar ? 'max-w-[200px]' : 'lg:max-w-[300px] max-w-[200px]',
@@ -152,20 +136,21 @@ const isFr = computed(() => locale.value === "fr");
         <div class="mx-auto space-x-2 flex">
           <Badge
             class="cursor-pointer dark:bg-dark-400"
-            flag="it"
             :text="isFr ? 'fr' : 'en'"
-            @click="changeLang()"
+            :aria-label="`Switch language to ${isFr ? 'English' : 'French'}`"
+            @click="toggleLocale"
           >
             <template #flag>
               <flag :iso="!isFr ? 'gb' : 'fr'" />
             </template>
           </Badge>
           <Badge
-            :type="isDark?'':'yellow'"
-            :class="['cursor-pointer ',isDark?' dark:bg-dark-400':'']"
+            :type="isDark ? '' : 'yellow'"
+            :class="['cursor-pointer', isDark ? 'dark:bg-dark-400' : '']"
             :icon="isDark ? 'Moon' : 'Sun'"
             :text="$t(isDark ? 'labels.dark' : 'labels.light')"
-            @click="$emit('changeTheme')"
+            :aria-label="`Switch to ${isDark ? 'light' : 'dark'} mode`"
+            @click="toggleTheme"
           />
         </div>
       </div>
