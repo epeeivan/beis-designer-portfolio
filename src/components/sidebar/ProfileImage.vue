@@ -14,6 +14,12 @@ defineProps({
   <div
     class="p-5 border-4 border-dashed border-base_yellow rounded-full w-fit h-fit"
   >
-    <img :src="src" class="rounded-full" :alt="alt" />
+    <img
+      :src="src"
+      :alt="alt"
+      class="rounded-full"
+      decoding="async"
+      fetchpriority="high"
+    />
   </div>
 </template>

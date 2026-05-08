@@ -1,8 +1,8 @@
 <script setup>
-const props = defineProps({
+defineProps({
   item: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
 });
 </script>
@@ -17,6 +17,8 @@ const props = defineProps({
           :src="item.logo"
           :alt="$t(item.title)"
           class="m-auto lg:w-1/2 lg:h-auto h-2/3"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div class="my-auto">

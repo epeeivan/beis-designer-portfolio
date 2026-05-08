@@ -3,7 +3,7 @@ export default [
     title: "achievements.cems_order.title",
     subTitle: "achievements.cems_order.subtitle",
     description: "achievements.cems_order.description",
-    cover: "achievements/ui_ux/web_apps/cems_order.png",
+    cover: "achievements/ui_ux/web_apps/cems_order.webp",
     badges: [
       {
         icon: "FileX",
@@ -15,7 +15,7 @@ export default [
     title: "achievements.bewallet_admin.title",
     subTitle: "achievements.bewallet_admin.subtitle",
     description: "achievements.bewallet_admin.description",
-    cover: "achievements/ui_ux/web_apps/bewallet_admin.png",
+    cover: "achievements/ui_ux/web_apps/bewallet_admin.webp",
     badges: [
       {
         icon: "FileX",
@@ -27,7 +27,7 @@ export default [
     title: "achievements.multipresta.title",
     subTitle: "achievements.multipresta.subtitle",
     description: "achievements.multipresta.description",
-    cover: "achievements/ui_ux/web_apps/multipresta.png",
+    cover: "achievements/ui_ux/web_apps/multipresta.webp",
     badges: [
       {
         icon: "Figma",
@@ -41,7 +41,7 @@ export default [
     title: "achievements.bewallet.title",
     subTitle: "achievements.bewallet.subtitle",
     description: "achievements.bewallet.description",
-    cover: "achievements/ui_ux/web_apps/be_refill.png",
+    cover: "achievements/ui_ux/web_apps/be_refill.webp",
     badges: [
       {
         icon: "FileX",
@@ -53,7 +53,7 @@ export default [
     title: "achievements.bewallet.title",
     subTitle: "achievements.cashier.subtitle",
     description: "achievements.cashier.description",
-    cover: "achievements/ui_ux/web_apps/cashier.png",
+    cover: "achievements/ui_ux/web_apps/cashier.webp",
     badges: [
       {
         icon: "FileX",

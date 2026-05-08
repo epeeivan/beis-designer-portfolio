@@ -24,26 +24,26 @@ const isFr = computed(() => locale.value === "fr");
 const menuItems = [
   {
     text: "labels.ui_ux",
-    src: "/images/icons/ui-ux/dark.png",
-    dark_src: "/images/icons/ui-ux/light.png",
+    src: "/images/icons/ui-ux/dark.webp",
+    dark_src: "/images/icons/ui-ux/light.webp",
     to: "home.ui-ux",
   },
   {
     text: "labels.graphic_design",
-    src: "/images/icons/graphic/dark.png",
-    dark_src: "/images/icons/graphic/light.png",
+    src: "/images/icons/graphic/dark.webp",
+    dark_src: "/images/icons/graphic/light.webp",
     to: "home.graphic-design",
   },
   {
     text: "labels.resume",
-    src: "/images/icons/resume/dark.png",
-    dark_src: "/images/icons/resume/light.png",
+    src: "/images/icons/resume/dark.webp",
+    dark_src: "/images/icons/resume/light.webp",
     to: "home.resume",
   },
   {
     text: "labels.contact_me",
-    src: "/images/icons/contact/dark.png",
-    dark_src: "/images/icons/contact/light.png",
+    src: "/images/icons/contact/dark.webp",
+    dark_src: "/images/icons/contact/light.webp",
     link: "https://wa.me/237655946828",
   },
 ];
@@ -57,7 +57,7 @@ const menuItems = [
         : 'flex lg:min-w-[400px] lg:max-w-[400px] border-r-2',
     ]"
     :style="`background-image: url(/images/${
-      isDark ? 'sidebgDark200.png' : 'sidebg.png'
+      isDark ? 'sidebgDark200.webp' : 'sidebg.webp'
     })`"
   >
     <div
@@ -80,7 +80,7 @@ const menuItems = [
               'mx-auto block transition-all ease-in-out duration-500 ',
               isSidebar ? 'max-w-[200px]' : 'lg:max-w-[300px] max-w-[200px]',
             ]"
-            src="/images/profile.JPG"
+            src="/images/profile.webp"
           />
 
           <div

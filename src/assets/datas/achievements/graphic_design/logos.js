@@ -4,7 +4,7 @@ export default [
     subTitle: "achievements.ahafreight.subtitle",
     mid_bg: "#6a2d12",
     bg: "#E75B00",
-    img: "achievements/graphic_design/logos/ahafreight.png",
+    img: "achievements/graphic_design/logos/ahafreight.webp",
   },
   {
     title: "achievements.apibundle.title",
@@ -12,21 +12,21 @@ export default [
     // description: "achievements.apibundle.description",
     mid_bg: "#874024",
     bg: "#F1895C",
-    img: "achievements/graphic_design/logos/apibundle.png",
+    img: "achievements/graphic_design/logos/apibundle.webp",
   },
   {
     title: "achievements.cmb.title",
     subTitle: "achievements.cmb.subtitle",
     description: "achievements.cmb.description",
     bg: "#0E8942",
-    img: "achievements/graphic_design/logos/cmb.png",
+    img: "achievements/graphic_design/logos/cmb.webp",
   },
   {
     title: "achievements.dghome.title",
     subTitle: "achievements.dghome.subtitle",
     // description: "achievements.dghome.description",
     bg: "#CFA645",
-    img: "achievements/graphic_design/logos/dghome.png",
+    img: "achievements/graphic_design/logos/dghome.webp",
   },
   {
     title: "achievements.firestore.title",
@@ -34,7 +34,7 @@ export default [
     // description: "achievements.firestore.description",
     mid_bg: "#96c9ee",
     bg: "#2B8DD1",
-    img: "achievements/graphic_design/logos/fireshield.png",
+    img: "achievements/graphic_design/logos/fireshield.webp",
   },
   {
     title: "achievements.vitteck_logo.title",
@@ -43,7 +43,7 @@ export default [
     mid_bg: "#b5dfc4",
 
     bg: "#62A279",
-    img: "achievements/graphic_design/logos/vitteck.png",
+    img: "achievements/graphic_design/logos/vitteck.webp",
   },
   {
     title: "achievements.237coachs_logo.title",
@@ -51,13 +51,13 @@ export default [
     description: "achievements.237coachs.description",
     mid_bg: "#484848",
     bg: "#000",
-    img: "achievements/graphic_design/logos/237coachs.png",
+    img: "achievements/graphic_design/logos/237coachs.webp",
   },
   {
     title: "achievements.oas.title",
     subTitle: "achievements.oas.subtitle",
     // description: "achievements.oas.description",
     bg: "#0057FF",
-    img: "achievements/graphic_design/logos/oas.png",
+    img: "achievements/graphic_design/logos/oas.webp",
   },
 ];

@@ -49,10 +49,12 @@ const isActiveRoute = computed(() => {
       ]"
     >
       <img
-        :src="isDark ? item.dark_src ?? '' : item.src"
+        :src="isDark ? (item.dark_src ?? '') : item.src"
+        :alt="$t(item.text)"
         :class="[
           isSidebar ? 'w-[20px] lg:mx-0 mx-auto' : 'lg:w-[70px] w-[40px]',
         ]"
+        decoding="async"
       />
       <span v-if="isSidebar" class="block my-auto lg:text-right text-center">
         <span class="lg:block hidden">{{ $t(item.text) }}</span>

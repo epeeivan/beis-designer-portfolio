@@ -29,6 +29,7 @@ defineProps({
         :src="`/images/${item?.img}`"
         :alt="$t(item?.title ?? '')"
         loading="lazy"
+        decoding="async"
       />
     </div>
     <h1 class="font-semibold text-sm">{{ $t(item?.title ?? "") }}</h1>

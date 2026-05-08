@@ -11,7 +11,7 @@ const { locale } = useLocale();
 
 const SITE_NAME = "BEBE EPEE Ivan Sampi — Portfolio";
 const SITE_URL = "https://beis-designer-portfolio.onrender.com";
-const OG_IMAGE = `${SITE_URL}/images/url_cover.png`;
+const OG_IMAGE = `${SITE_URL}/images/url_cover.webp`;
 
 const ROUTE_META = {
   home: { titleKey: "labels.ui_ux_designer" },

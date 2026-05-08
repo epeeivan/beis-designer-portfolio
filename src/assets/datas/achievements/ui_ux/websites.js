@@ -4,7 +4,7 @@ export default [
     subTitle: "achievements.betmomo.subtitle",
     description: "achievements.betmomo.description",
     // figma_text:"open_figma",
-    cover: "achievements/ui_ux/websites/betfest.png",
+    cover: "achievements/ui_ux/websites/betfest.webp",
     badges: [
       {
         icon: "FileX",
@@ -17,7 +17,7 @@ export default [
     subTitle: "achievements.betmomo.subtitle",
     description: "achievements.betmomo.description",
     // figma_text:"open_figma",
-    cover: "achievements/ui_ux/websites/nfolio.png",
+    cover: "achievements/ui_ux/websites/nfolio.webp",
     badges: [
       {
         icon: "ExternalLink",
@@ -37,7 +37,7 @@ export default [
     subTitle: "achievements.wed.subtitle",
     description: "achievements.wed.description",
     // figma_text:"open_figma",
-    cover: "achievements/ui_ux/websites/wed.png",
+    cover: "achievements/ui_ux/websites/wed.webp",
     badges: [
       {
         icon: "FileX",
@@ -49,7 +49,7 @@ export default [
     title: "achievements.mesagoo.title",
     subTitle: "achievements.mesagoo.subtitle",
     description: "achievements.mesagoo.description",
-    cover: "achievements/ui_ux/websites/mesagoo.png",
+    cover: "achievements/ui_ux/websites/mesagoo.webp",
     badges: [
       {
         icon: "FileX",
@@ -61,7 +61,7 @@ export default [
     title: "achievements.mesagoo.title",
     subTitle: "achievements.mesagoo.subtitle",
     description: "achievements.mesagoo.description",
-    cover: "achievements/ui_ux/websites/myhome.png",
+    cover: "achievements/ui_ux/websites/myhome.webp",
     badges: [
       {
         icon: "FileX",
@@ -73,7 +73,7 @@ export default [
     title: "achievements.cmb.title",
     subTitle: "achievements.cmb.subtitle",
     description: "achievements.cmb.description",
-    cover: "achievements/ui_ux/websites/cmb.png",
+    cover: "achievements/ui_ux/websites/cmb.webp",
     badges: [
       {
         icon: "Figma",
@@ -89,7 +89,7 @@ export default [
     subTitle: "achievements.portfolio.subtitle",
     description: "achievements.portfolio.description",
     figma_text: "open_figma",
-    cover: "achievements/ui_ux/websites/ofolio.png",
+    cover: "achievements/ui_ux/websites/ofolio.webp",
     badges: [
       {
         icon: "ExternalLink",
@@ -108,7 +108,7 @@ export default [
     title: "achievements.vaui.title",
     subTitle: "achievements.vaui.subtitle",
     description: "achievements.vaui.description",
-    cover: "achievements/ui_ux/websites/vaui.png",
+    cover: "achievements/ui_ux/websites/vaui.webp",
     badges: [
       {
         icon: "Figma",
@@ -122,7 +122,7 @@ export default [
     title: "achievements.lab2view_website.title",
     subTitle: "achievements.lab2view_website.subtitle",
     description: "achievements.lab2view_website.description",
-    cover: "achievements/ui_ux/websites/l2vwebsite.png",
+    cover: "achievements/ui_ux/websites/l2vwebsite.webp",
     badges: [
       {
         icon: "ExternalLink",

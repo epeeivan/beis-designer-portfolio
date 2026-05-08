@@ -4,7 +4,7 @@ export default [
     subTitle: "achievements.betmomo.subtitle",
     description: "achievements.betmomo.description",
     // figma_text:"open_figma",
-    cover: "cover/betmomo_festival.PNG",
+    cover: "cover/betmomo_festival.webp",
     badges: [
       {
         icon: "Globe",
@@ -25,7 +25,7 @@ export default [
     title: "achievements.mesagoo.title",
     subTitle: "achievements.mesagoo.subtitle",
     description: "achievements.mesagoo.description",
-    cover: "cover/mesagoo.PNG",
+    cover: "cover/mesagoo.webp",
     badges: [
       {
         icon: "Globe",
@@ -45,7 +45,7 @@ export default [
     title: "achievements.cmb.title",
     subTitle: "achievements.cmb.subtitle",
     description: "achievements.cmb.description",
-    cover: "cover/cmb.PNG",
+    cover: "cover/cmb.webp",
     badges: [
       {
         icon: "Globe",
@@ -67,7 +67,7 @@ export default [
     subTitle: "achievements.portfolio.subtitle",
     description: "achievements.portfolio.description",
     figma_text: "open_figma",
-    cover: "cover/port.PNG",
+    cover: "cover/port.webp",
     badges: [
       {
         icon: "Globe",
@@ -87,7 +87,7 @@ export default [
     title: "achievements.vaui.title",
     subTitle: "achievements.vaui.subtitle",
     description: "achievements.vaui.description",
-    cover: "cover/vaui.PNG",
+    cover: "cover/vaui.webp",
     badges: [
       {
         icon: "Globe",
@@ -107,7 +107,7 @@ export default [
     title: "achievements.lab2view_website.title",
     subTitle: "achievements.lab2view_website.subtitle",
     description: "achievements.lab2view_website.description",
-    cover: "cover/l2v_website.PNG",
+    cover: "cover/l2v_website.webp",
     badges: [
       {
         icon: "Globe",

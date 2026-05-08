@@ -28,6 +28,7 @@ defineProps({
             :src="`${software?.img}`"
             :alt="software?.label ?? ''"
             loading="lazy"
+            decoding="async"
           />
           <span class="block text-center">{{ software?.label }}</span>
         </div>
