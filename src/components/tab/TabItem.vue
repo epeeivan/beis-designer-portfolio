@@ -27,7 +27,7 @@ const isActiveRoute = computed(() => {
     ]"
   >
     <span class="block my-auto">{{ item.text }}</span>
-    <span class="block px-2 bg-dark-100 text-silver rounded-sm">{{
+    <span class="block px-2 bg-dark-100 text-silver rounded-xs">{{
       item.count
     }}</span>
   </router-link>

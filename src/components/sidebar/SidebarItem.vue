@@ -44,7 +44,7 @@ const isActiveRoute = computed(() => {
         'border-2 h-min lg:bg-white  dark:bg-dark-100 dark:text-silver  hover:border-base_yellow transition-all  ease-linear duration-100',
         isSidebar
           ? 'rounded-lg lg:flex lg:space-x-2 px-3 py-2 '
-          : 'lg:p-7 p-5  rounded-xl shadow-2xl w-[fit-content] mx-auto ',
+          : 'lg:p-7 p-5  rounded-xl shadow-2xl w-fit mx-auto ',
         isActiveRoute ? 'border-base_yellow' : ' border-transparent',
       ]"
     >
