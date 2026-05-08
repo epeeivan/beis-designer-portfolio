@@ -1,7 +1,12 @@
-import { createApp } from "vue";
+import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
-import router from "@/routes";
+import { routes } from "@/routes";
 import i18n from "@/i18n";
-import FlagIcon from "vue-flag-icon";
 
-createApp(App).use(i18n).use(router).use(FlagIcon).mount("#app");
+export const createApp = ViteSSG(
+  App,
+  { routes, base: "/", linkExactActiveClass: "active" },
+  ({ app }) => {
+    app.use(i18n);
+  },
+);

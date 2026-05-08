@@ -1,11 +1,7 @@
-import { createRouter, createWebHistory } from "vue-router";
-
-const routes = [
+export const routes = [
   {
     path: "/",
-    redirect: () => {
-      return { name: "home" };
-    },
+    redirect: () => ({ name: "home" }),
   },
   {
     path: "/home",
@@ -73,11 +69,3 @@ const routes = [
     ],
   },
 ];
-
-const router = createRouter({
-  routes,
-  history: createWebHistory(),
-  linkExactActiveClass: "active",
-});
-
-export default router;

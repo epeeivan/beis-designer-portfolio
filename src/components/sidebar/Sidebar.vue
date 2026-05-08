@@ -3,6 +3,7 @@ import { computed } from "vue";
 import ProfileImage from "./ProfileImage.vue";
 import SidebarItem from "./SidebarItem.vue";
 import Badge from "@/components/Badge.vue";
+import LanguageFlag from "@/components/LanguageFlag.vue";
 import { useTheme } from "@/composables/useTheme";
 import { useLocale } from "@/composables/useLocale";
 
@@ -141,7 +142,7 @@ const menuItems = [
             @click="toggleLocale"
           >
             <template #flag>
-              <flag :iso="!isFr ? 'gb' : 'fr'" />
+              <LanguageFlag :code="!isFr ? 'gb' : 'fr'" />
             </template>
           </Badge>
           <Badge
