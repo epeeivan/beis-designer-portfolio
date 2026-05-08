@@ -1,0 +1,63 @@
+export default [
+  {
+    title: "achievements.ahafreight.title",
+    subTitle: "achievements.ahafreight.subtitle",
+    mid_bg: "#6a2d12",
+    bg: "#E75B00",
+    img: "achievements/graphic_design/logos/ahafreight.png",
+  },
+  {
+    title: "achievements.apibundle.title",
+    subTitle: "achievements.apibundle.subtitle",
+    // description: "achievements.apibundle.description",
+    mid_bg: "#874024",
+    bg: "#F1895C",
+    img: "achievements/graphic_design/logos/apibundle.png",
+  },
+  {
+    title: "achievements.cmb.title",
+    subTitle: "achievements.cmb.subtitle",
+    description: "achievements.cmb.description",
+    bg: "#0E8942",
+    img: "achievements/graphic_design/logos/cmb.png",
+  },
+  {
+    title: "achievements.dghome.title",
+    subTitle: "achievements.dghome.subtitle",
+    // description: "achievements.dghome.description",
+    bg: "#CFA645",
+    img: "achievements/graphic_design/logos/dghome.png",
+  },
+  {
+    title: "achievements.firestore.title",
+    subTitle: "achievements.firestore.subtitle",
+    // description: "achievements.firestore.description",
+    mid_bg: "#96c9ee",
+    bg: "#2B8DD1",
+    img: "achievements/graphic_design/logos/fireshield.png",
+  },
+  {
+    title: "achievements.vitteck_logo.title",
+    subTitle: "achievements.vitteck_logo.subtitle",
+    // description: "achievements.vitteck_logo.description",
+    mid_bg: "#b5dfc4",
+
+    bg: "#62A279",
+    img: "achievements/graphic_design/logos/vitteck.png",
+  },
+  {
+    title: "achievements.237coachs_logo.title",
+    subTitle: "achievements.237coachs_logo.subtitle",
+    description: "achievements.237coachs.description",
+    mid_bg: "#484848",
+    bg: "#000",
+    img: "achievements/graphic_design/logos/237coachs.png",
+  },
+  {
+    title: "achievements.oas.title",
+    subTitle: "achievements.oas.subtitle",
+    // description: "achievements.oas.description",
+    bg: "#0057FF",
+    img: "achievements/graphic_design/logos/oas.png",
+  },
+];

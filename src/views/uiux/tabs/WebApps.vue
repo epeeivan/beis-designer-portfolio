@@ -1,5 +1,5 @@
 <script setup>
-import webapps from "@/assets/datas/achievments/ui_ux/web_apps.js";
+import webapps from "@/assets/datas/achievements/ui_ux/web_apps.js";
 import TabBodyContainer from "@/components/TabBodyContainer.vue";
 </script>
 <template>

@@ -1,5 +1,5 @@
 <script setup>
-import apps from "@/assets/datas/achievments/ui_ux/apps.js";
+import apps from "@/assets/datas/achievements/ui_ux/apps.js";
 import TabBodyContainer from "@/components/TabBodyContainer.vue";
 </script>
 <template>

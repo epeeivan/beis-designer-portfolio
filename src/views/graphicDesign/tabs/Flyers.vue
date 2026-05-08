@@ -1,5 +1,5 @@
 <script setup>
-import flyers from "@/assets/datas/achievments/graphic_design/flyers.js";
+import flyers from "@/assets/datas/achievements/graphic_design/flyers.js";
 import TabBodyContainer from "@/components/TabBodyContainer.vue";
 </script>
 <template>

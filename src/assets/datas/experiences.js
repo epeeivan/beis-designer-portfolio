@@ -1,6 +1,6 @@
 export default [
   {
-    logo: "/images/achievments/graphic_design/logos/l2v.png",
+    logo: "/images/achievements/graphic_design/logos/l2v.png",
     title: "experiences.lab2view.title",
     subtitle: "experiences.lab2view.subtitle",
     date: "experiences.lab2view.period",
@@ -16,7 +16,7 @@ export default [
     description: "experiences.fireshield.description",
   },
   {
-    logo: "/images/achievments/graphic_design/logos/vitteck.png",
+    logo: "/images/achievements/graphic_design/logos/vitteck.png",
     title: "experiences.vitteck.title",
     subtitle: "experiences.vitteck.subtitle",
     date: "experiences.vitteck.period",

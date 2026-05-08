@@ -1,8 +1,8 @@
 export default [
   {
-    title: "acheivments.betmomo.title",
-    subTitle: "acheivments.betmomo.subtitle",
-    description: "acheivments.betmomo.description",
+    title: "achievements.betmomo.title",
+    subTitle: "achievements.betmomo.subtitle",
+    description: "achievements.betmomo.description",
     // figma_text:"open_figma",
     cover: "cover/betmomo_festival.PNG",
     badges: [
@@ -22,9 +22,9 @@ export default [
   },
 
   {
-    title: "acheivments.mesagoo.title",
-    subTitle: "acheivments.mesagoo.subtitle",
-    description: "acheivments.mesagoo.description",
+    title: "achievements.mesagoo.title",
+    subTitle: "achievements.mesagoo.subtitle",
+    description: "achievements.mesagoo.description",
     cover: "cover/mesagoo.PNG",
     badges: [
       {
@@ -42,9 +42,9 @@ export default [
     ],
   },
   {
-    title: "acheivments.cmb.title",
-    subTitle: "acheivments.cmb.subtitle",
-    description: "acheivments.cmb.description",
+    title: "achievements.cmb.title",
+    subTitle: "achievements.cmb.subtitle",
+    description: "achievements.cmb.description",
     cover: "cover/cmb.PNG",
     badges: [
       {
@@ -63,9 +63,9 @@ export default [
   },
 
   {
-    title: "acheivments.portfolio.title",
-    subTitle: "acheivments.portfolio.subtitle",
-    description: "acheivments.portfolio.description",
+    title: "achievements.portfolio.title",
+    subTitle: "achievements.portfolio.subtitle",
+    description: "achievements.portfolio.description",
     figma_text: "open_figma",
     cover: "cover/port.PNG",
     badges: [
@@ -84,9 +84,9 @@ export default [
     ],
   },
   {
-    title: "acheivments.vaui.title",
-    subTitle: "acheivments.vaui.subtitle",
-    description: "acheivments.vaui.description",
+    title: "achievements.vaui.title",
+    subTitle: "achievements.vaui.subtitle",
+    description: "achievements.vaui.description",
     cover: "cover/vaui.PNG",
     badges: [
       {
@@ -104,9 +104,9 @@ export default [
     ],
   },
   {
-    title: "acheivments.lab2view_website.title",
-    subTitle: "acheivments.lab2view_website.subtitle",
-    description: "acheivments.lab2view_website.description",
+    title: "achievements.lab2view_website.title",
+    subTitle: "achievements.lab2view_website.subtitle",
+    description: "achievements.lab2view_website.description",
     cover: "cover/l2v_website.PNG",
     badges: [
       {

@@ -20,7 +20,7 @@ defineProps({
       <div class="flex flex-wrap space-x-10">
         <div
           v-for="(software, index) in infos?.softwares?.items"
-          :key="`ui-ux-sofware-${index}`"
+          :key="`software-${index}`"
           class="space-y-2"
         >
           <img
@@ -34,7 +34,7 @@ defineProps({
       </div>
     </div>
     <h1 class="text-lg capitalize font-semibold">
-      {{ $t("labels.acheivments") }}
+      {{ $t("labels.achievements") }}
     </h1>
 
     <Tab :headers="infos?.headers" />
