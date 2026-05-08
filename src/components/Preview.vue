@@ -12,7 +12,7 @@ defineProps({
 </script>
 <template>
   <div
-    class="w-screen flex flex-col top-0 left-0 h-dvh absolute z-50 bg-dark-100/[0.8]"
+    class="w-screen flex flex-col top-0 left-0 h-dvh absolute z-50 bg-dark-100/80"
     style=""
   >
     <div class="p-5 ml-auto">

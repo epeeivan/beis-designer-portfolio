@@ -8,7 +8,7 @@ defineProps({
 </script>
 <template>
   <div
-    class="p-5 border-4 border-dashed border-base_yellow rounded-full w-[fit-content] h-[fit-content]"
+    class="p-5 border-4 border-dashed border-base_yellow rounded-full w-fit h-fit"
   >
     <img :src="src" class="rounded-full" alt="" />
   </div>

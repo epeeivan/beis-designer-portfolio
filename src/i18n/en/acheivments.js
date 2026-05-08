@@ -27,7 +27,7 @@ export default {
     title: "CMB",
     subtitle: "Information website",
     description:
-      "Centred on the foolish trades, this site aims to remove the veil of shadow with which the prejudices of modern society have covered them. ",
+      "Centred on the foolish trades, this site aims to remove the veil of shadow-sm with which the prejudices of modern society have covered them. ",
   },
   multipresta: {
     title: "Multipresta",
