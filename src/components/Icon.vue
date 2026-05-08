@@ -1,6 +1,28 @@
 <script setup>
 import { computed } from "vue";
-import * as icons from "lucide-vue-next";
+import {
+  ExternalLink,
+  Figma,
+  FileX,
+  Globe,
+  Link,
+  Moon,
+  Pencil,
+  Sun,
+  X,
+} from "lucide-vue-next";
+
+const icons = {
+  ExternalLink,
+  Figma,
+  FileX,
+  Globe,
+  Link,
+  Moon,
+  Pencil,
+  Sun,
+  X,
+};
 
 const props = defineProps({
   name: {
