@@ -7,7 +7,7 @@ const route = useRoute();
 const props = defineProps({
   item: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
 });
 

@@ -7,20 +7,19 @@ import { useI18n } from "vue-i18n";
 
 const { t, locale } = useI18n({ useScope: "global" });
 
-const emit = defineEmits(["changeSideMode", "changeTheme"]);
+defineEmits(["changeSideMode", "changeTheme"]);
 const props = defineProps({
   isSidebar: {
     type: Boolean,
-    default: "",
+    default: false,
   },
   theme: {
     type: String,
-    default: "",
+    default: "dark",
   },
 });
-// locale.value='fr'
 
-let menuItems = [
+const menuItems = [
   {
     text: "labels.ui_ux",
     src: "/images/icons/ui-ux/dark.png",
@@ -47,11 +46,6 @@ let menuItems = [
   },
 ];
 const isDark = computed(() => props.theme === "dark");
-function reduceSidebar() {
-  if (!isSidebar.value) {
-    emit("changeSideMode");
-  }
-}
 
 function changeLang() {
   switch (true) {

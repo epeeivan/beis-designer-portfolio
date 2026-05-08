@@ -12,7 +12,7 @@ defineProps({
   },
   items: {
     type: Array,
-    default: [],
+    default: () => [],
   },
 });
 const isDetailsShowed = computed(() => {

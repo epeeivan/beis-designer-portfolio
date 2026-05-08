@@ -3,7 +3,7 @@ import Badge from "@/components/Badge.vue";
 defineProps({
   item: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
 });
 </script>

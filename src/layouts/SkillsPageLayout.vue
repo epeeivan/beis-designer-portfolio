@@ -1,11 +1,10 @@
 <script setup>
-import SoftwaresDisplayer from "@/components/SoftwaresDisplayer.vue";
 import Tab from "@/components/tab/Tab.vue";
 
 defineProps({
   infos: {
     type: Object,
-    default: () => {},
+    default: () => ({}),
   },
 });
 </script>
