@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
 import { useRoute } from "vue-router";
 import { useI18n } from "vue-i18n";
@@ -9,17 +9,16 @@ const route = useRoute();
 const { t } = useI18n({ useScope: "global" });
 const { locale } = useLocale();
 
-const SITE_NAME = "BEBE EPEE Ivan Sampi — Portfolio";
+const SITE_NAME = "BÉBÉ — Portfolio";
 const SITE_URL = "https://beis-designer-portfolio.onrender.com";
-const OG_IMAGE = `${SITE_URL}/images/url_cover.webp`;
+const OG_IMAGE = `${SITE_URL}/images/projects/portfolio/ui_ux/landing/cover.webp`;
 
 const ROUTE_META = {
   home: { titleKey: "labels.ui_ux_designer" },
   "home.ui-ux": { titleKey: "labels.websites" },
   "home.ui-ux.web-app": { titleKey: "labels.web_apps" },
   "home.ui-ux.apps": { titleKey: "labels.apps" },
-  "home.graphic-design": { titleKey: "labels.flyers" },
-  "home.graphic-design.logos": { titleKey: "labels.logos" },
+  "home.graphic-design": { titleKey: "labels.brand_identity" },
   "home.graphic-design.catalogs": { titleKey: "labels.catalogs" },
   "home.resume": { titleKey: "labels.experiences" },
   "home.resume.schools": { titleKey: "labels.schools" },
@@ -62,5 +61,5 @@ useHead({
   </router-view>
 </template>
 <style>
-@import "@/assets/css/style.css";
+@import "@/assets/css/input.css";
 </style>

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Sidebar from "@/components/sidebar/Sidebar.vue";
 import { computed } from "vue";
 import { useRoute } from "vue-router";

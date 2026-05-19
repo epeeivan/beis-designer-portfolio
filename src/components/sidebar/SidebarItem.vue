@@ -56,7 +56,7 @@ const isActiveRoute = computed(() => {
         ]"
         decoding="async"
       />
-      <span v-if="isSidebar" class="block my-auto lg:text-right text-center">
+      <span v-if="isSidebar" class="block my-auto lg:text-right text-center" :class="isSidebar?'lg:ml-2':''">
         <span class="lg:block hidden">{{ $t(item.text) }}</span>
         <span class="block lg:hidden">{{
           $t(item.text).split(" ")[0].substr(0, 7)

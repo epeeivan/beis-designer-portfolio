@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import TabItem from "./TabItem.vue";
 defineProps({
   headers: {
@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div class="space-y-5">
     <!-- headers -->
-    <div class="flex space-x-4 sticky top-0">
+    <div class="flex space-x-4 sticky top-0 overflow-auto">
       <TabItem
         v-for="(header, index) in headers"
         :key="`tab-header-${index}`"

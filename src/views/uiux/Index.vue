@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import softwares from "@/assets/datas/softwares";
 import SkillsPageLayout from "@/layouts/SkillsPageLayout.vue";
 import { useI18n } from "vue-i18n";
@@ -14,16 +14,21 @@ const infos = {
     {
       to: "home.ui-ux",
       text: t("labels.websites"),
-      count: 9,
+      count: 10,
     },
     {
       to: "home.ui-ux.web-app",
       text: t("labels.web_apps"),
-      count: 5,
+      count: 8,
     },
     {
       to: "home.ui-ux.apps",
       text: t("labels.apps"),
+      count: 4,
+    },
+    {
+      to: "home.ui-ux.design-systems",
+      text: t("labels.design_systems"),
       count: 4,
     },
   ],

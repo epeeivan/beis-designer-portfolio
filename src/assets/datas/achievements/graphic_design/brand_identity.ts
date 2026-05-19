@@ -1,0 +1,45 @@
+export default [
+  {
+    title: "achievements.ahafreight.title",
+    subTitle: "achievements.ahafreight.subtitle",
+    mid_bg: "#6a2d12",
+    bg: "#E75B00",
+    img: "projects/ahafreight/graphic/logo/cover.webp",
+  },
+  {
+    title: "achievements.apibundle.title",
+    subTitle: "achievements.apibundle.subtitle",
+    mid_bg: "#874024",
+    bg: "#F1895C",
+    img: "projects/apibundle/graphic/logo/cover.webp",
+  },
+  {
+    title: "achievements.vitteck_logo.title",
+    subTitle: "achievements.vitteck_logo.subtitle",
+    mid_bg: "#b5dfc4",
+    bg: "#62A279",
+    img: "projects/vitteck/graphic/logo/cover.webp",
+  },
+  {
+    title: "achievements.237coachs_logo.title",
+    subTitle: "achievements.237coachs_logo.subtitle",
+    description: "achievements.237coachs.description",
+    mid_bg: "#484848",
+    bg: "#000",
+    img: "projects/237coachs/graphic/logo/cover.webp",
+  },
+  {
+    title: "achievements.cocoonin_brand_identity.title",
+    subTitle: "achievements.cocoonin_brand_identity.subtitle",
+    description: "achievements.cocoonin_brand_identity.description",
+    logo: "projects/cocoonin/logo.webp",
+    cover: "projects/cocoonin/graphic/brand_identity/cover.webp",
+  },
+  {
+    title: "achievements.tchaza_brand_identity.title",
+    subTitle: "achievements.tchaza_brand_identity.subtitle",
+    description: "achievements.tchaza_brand_identity.description",
+    logo: "projects/tchaza/logo.webp",
+    cover: "projects/tchaza/graphic/brand_identity/cover.webp",
+  },
+];

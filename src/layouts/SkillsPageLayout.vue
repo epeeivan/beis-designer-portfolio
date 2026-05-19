@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Tab from "@/components/tab/Tab.vue";
 
 defineProps({
@@ -11,12 +11,15 @@ defineProps({
 <template>
   <div class="space-y-5">
     <div class="space-y-5">
-      <h1 class="text-lg font-semibold capitalize">
+      <div class="space-y-2">
+              <h1 class="text-lg font-semibold capitalize">
         {{ $t("labels.softwares") }}
       </h1>
       <p>
         {{ $t(infos?.softwares?.description) }}
       </p>
+      </div>
+
       <div class="flex flex-wrap space-x-10">
         <div
           v-for="(software, index) in infos?.softwares?.items"
@@ -24,7 +27,7 @@ defineProps({
           class="space-y-2"
         >
           <img
-            class="block h-[70px] my-auto"
+            class="block h-[70px]"
             :src="`${software?.img}`"
             :alt="software?.label ?? ''"
             loading="lazy"

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
 import { useRoute } from "vue-router";
 
@@ -20,14 +20,14 @@ const isActiveRoute = computed(() => {
   <router-link
     :to="{ name: item.to }"
     :class="[
-      'p-1 capitalize  flex space-x-2 rounded-[5px] border ',
+      'p-1 capitalize  flex space-x-2 rounded-lg border ',
       isActiveRoute
         ? 'bg-base_yellow border-dark-100 dark:text-dark-300 dark:border-base_yellow'
         : 'bg-white dark:bg-dark-300 border-transparent',
     ]"
   >
-    <span class="block my-auto">{{ item.text }}</span>
-    <span class="block px-2 bg-dark-100 text-silver rounded-xs">{{
+    <span class="block my-auto w-max">{{ item.text }}</span>
+    <span class="block px-2 bg-dark-100 text-silver rounded-sm">{{
       item.count
     }}</span>
   </router-link>

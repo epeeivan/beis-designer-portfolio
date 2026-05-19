@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import softwares from "@/assets/datas/softwares";
 import SkillsPageLayout from "@/layouts/SkillsPageLayout.vue";
 import { useI18n } from "vue-i18n";
@@ -13,13 +13,8 @@ const infos = {
   headers: [
     {
       to: "home.graphic-design",
-      text: t("labels.flyers"),
-      count: 3,
-    },
-    {
-      to: "home.graphic-design.logos",
-      text: t("labels.logos"),
-      count: 8,
+      text: t("labels.brand_identity"),
+      count: 6,
     },
     {
       to: "home.graphic-design.catalogs",

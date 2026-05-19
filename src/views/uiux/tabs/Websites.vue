@@ -1,5 +1,5 @@
-<script setup>
-import websites from "@/assets/datas/achievements/ui_ux/websites.js";
+<script setup lang="ts">
+import websites from "@/assets/datas/achievements/ui_ux/websites";
 import TabBodyContainer from "@/components/TabBodyContainer.vue";
 </script>
 <template>

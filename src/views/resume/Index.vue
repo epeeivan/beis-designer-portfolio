@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Tab from "@/components/tab/Tab.vue";
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import CardImage from "@/components/cards/CardImage.vue";
 import Preview from "@/components/Preview.vue";
 import { computed, reactive, ref } from "vue";
@@ -32,7 +32,7 @@ function setSelectedItem(item = null) {
       <h1 class="text-lg capitalize font-bold">{{ title }}</h1>
 
       <div
-        class="grid xl:grid-cols-3 3xl:grid-cols-4 lg:grid-cols-2 gap-10 transition-all duration-100 ease-linear"
+        class="grid xl:grid-cols-3 2xl:grid-cols-4 lg:grid-cols-2 gap-5 transition-all duration-100 ease-linear"
       >
         <CardImage
           v-for="(item, index) in items"

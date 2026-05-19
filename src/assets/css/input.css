@@ -5,6 +5,11 @@
 @theme {
   --breakpoint-3xl: 1700px;
 
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-oswald: "Oswald", ui-sans-serif, system-ui, sans-serif;
+  --font-ink: "ink Free", cursive;
+
   --color-silver: #eaeff2;
   --color-base_yellow: #fecc3e;
 

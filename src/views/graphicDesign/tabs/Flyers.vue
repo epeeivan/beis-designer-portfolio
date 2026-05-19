@@ -1,7 +1,0 @@
-<script setup>
-import flyers from "@/assets/datas/achievements/graphic_design/flyers.js";
-import TabBodyContainer from "@/components/TabBodyContainer.vue";
-</script>
-<template>
-  <TabBodyContainer :title="$t('labels.flyers')" :items="flyers" />
-</template>

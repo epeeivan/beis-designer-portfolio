@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
 import {
   ExternalLink,
@@ -6,6 +6,7 @@ import {
   FileX,
   Globe,
   Link,
+  Maximize2,
   Moon,
   Pencil,
   Sun,
@@ -18,6 +19,7 @@ const icons = {
   FileX,
   Globe,
   Link,
+  Maximize2,
   Moon,
   Pencil,
   Sun,

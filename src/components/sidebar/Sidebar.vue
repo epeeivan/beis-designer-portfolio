@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
 import ProfileImage from "./ProfileImage.vue";
 import SidebarItem from "./SidebarItem.vue";
@@ -34,17 +34,17 @@ const menuItems = [
     dark_src: "/images/icons/graphic/light.webp",
     to: "home.graphic-design",
   },
-  {
-    text: "labels.resume",
-    src: "/images/icons/resume/dark.webp",
-    dark_src: "/images/icons/resume/light.webp",
-    to: "home.resume",
-  },
+  // {
+  //   text: "labels.resume",
+  //   src: "/images/icons/resume/dark.webp",
+  //   dark_src: "/images/icons/resume/light.webp",
+  //   to: "home.resume",
+  // },
   {
     text: "labels.contact_me",
     src: "/images/icons/contact/dark.webp",
     dark_src: "/images/icons/contact/light.webp",
-    link: "https://wa.me/237655946828",
+    link: "https://wa.me/237678377531",
   },
 ];
 </script>
@@ -54,7 +54,7 @@ const menuItems = [
       'flex border-t-2 dark:border-t-dark-400 lg:border-t-0 dark:bg-dark-300 dark:border-r-dark-300 bg-cover bg-center bg-fixed  transition-all ease-in-out duration-500',
       !isSidebar
         ? 'min-w-full max-w-full h-dvh lg:flex-nowrap flex-wrap'
-        : 'flex lg:min-w-[400px] lg:max-w-[400px] border-r-2',
+        : 'flex lg:min-w-[300px] lg:max-w-[300px] border-r-2',
     ]"
     :style="`background-image: url(/images/${
       isDark ? 'sidebgDark200.webp' : 'sidebg.webp'
@@ -92,7 +92,7 @@ const menuItems = [
                 !isSidebar ? 'lg:text-3xl text-xl ' : 'text-xl',
               ]"
             >
-              {{ $t("labels.i_am") }} BEBE EPEE IVAN SAMPI
+              {{ $t("labels.i_am") }} BÉBÉ
             </span>
             <span
               :class="[
@@ -108,7 +108,6 @@ const menuItems = [
         <p
           :class="[
             'text-center block dark:text-silver leading-5 mx-auto',
-            isSidebar ? 'lg:w-[300px]' : 'lg:w-[500px]',
           ]"
         >
           {{ $t("labels.profile_description") }}
@@ -119,7 +118,7 @@ const menuItems = [
         :class="[
           'grid',
           !isSidebar
-            ? 'lg:grid-cols-4 lg:gap-4 gap-2 grid-cols-2'
+            ? 'lg:grid-cols-3 lg:gap-4 gap-2 grid-cols-2'
             : 'lg:grid-cols-1 grid-cols-4 gap-2',
         ]"
       >

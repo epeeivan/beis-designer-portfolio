@@ -1,6 +1,6 @@
-<script setup>
+<script setup lang="ts">
 import ResumeItem from "@/components/resume/ResumeItem.vue";
-import experiences from "@/assets/datas/experiences.js";
+import experiences from "@/assets/datas/experiences";
 </script>
 <template>
   <div class="space-y-5 lg:divide-y-0 divide-y-2 dark:divide-dark-300">

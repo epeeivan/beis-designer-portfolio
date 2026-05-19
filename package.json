@@ -8,10 +8,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build",
-    "build:spa": "vite build",
+    "build": "npm run type-check && vite-ssg build",
+    "build:spa": "npm run type-check && vite build",
     "preview": "vite preview",
-    "css": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css --watch",
+    "type-check": "vue-tsc --noEmit",
     "lint": "eslint --fix src",
     "format": "prettier .  --write"
   },
@@ -24,21 +24,24 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@tailwindcss/cli": "^4.2.4",
-    "@tailwindcss/postcss": "^4.2.4",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/node": "^25.8.0",
     "@unhead/vue": "^2.1.13",
     "@vitejs/plugin-vue": "^6.0.6",
     "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.9.1",
     "globals": "^15.15.0",
-    "postcss": "^8.4.38",
     "prettier": "^3.8.3",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.3",
     "unhead": "^2.1.13",
     "vite": "^8.0.11",
+    "vite-plugin-vue-devtools": "^8.1.2",
     "vite-ssg": "^28.3.0",
-    "vue-eslint-parser": "^10.4.0"
+    "vue-eslint-parser": "^10.4.0",
+    "vue-tsc": "^3.2.9"
   }
 }
