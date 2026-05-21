@@ -17,6 +17,11 @@ export const routes: RouteRecordRaw[] = [
           {
             path: "",
             name: "home.ui-ux",
+            component: () => import("@/views/uiux/tabs/All.vue"),
+          },
+          {
+            path: "websites",
+            name: "home.ui-ux.websites",
             component: () => import("@/views/uiux/tabs/Websites.vue"),
           },
           {
@@ -43,6 +48,11 @@ export const routes: RouteRecordRaw[] = [
           {
             path: "",
             name: "home.graphic-design",
+            component: () => import("@/views/graphicDesign/tabs/All.vue"),
+          },
+          {
+            path: "brand-identity",
+            name: "home.graphic-design.brand-identity",
             component: () => import("@/views/graphicDesign/tabs/BrandIdentity.vue"),
           },
           {

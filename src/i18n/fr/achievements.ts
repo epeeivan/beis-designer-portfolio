@@ -50,7 +50,7 @@ export default {
     title: "tchaza",
     subtitle: "Plateforme de CV polymorphe",
     description:
-      "Plateforme de production de CV polymorphe. Elle permet, à partir d’un profil brut, d’obtenir des variantes (informations personnelles, expérience…) et de décliner le CV en plusieurs versions distinctes.\n\nEn tant que designer j’ai produit :\n- La charte graphique complète\n- Le design system\n- Le design de la landing\n- Le design du client web\n- Le design de l’app mobile\n- Le suivi de l’évolution",
+      "Plateforme de production de CV polymorphe. Elle permet, à partir d’un profil brut, d’obtenir des variantes (informations personnelles, expérience…) et de décliner le CV en plusieurs versions distinctes.\n\nLe défi ici a été de penser dans un premier temps aux utilisateurs mobiles (Mobile first), car la plupart des produits du marché ne sont pas optimisés sur les terminaux mobiles. Il a donc fallu réfléchir à comment représenter les fonctionnalités en s’inspirant des usages des applications utilisées au quotidien par le public cible, sans dénaturer le produit.\n\nUne fois la réflexion et les axes établis, j’ai produit :\n- La charte graphique complète\n- Le design system\n- Le design de la landing\n- Le design du client web\n- Le design de l’app mobile\n- Le suivi de l’évolution",
   },
   tchaza_client: {
     title: "tchaza — client",
@@ -105,6 +105,27 @@ export default {
     description:
       "Application web Empire Drive — gestion des opérations, des utilisateurs et des workflows quotidiens.",
   },
+  zeney: {
+    title: "Zeney",
+    subtitle: "Transfert d’argent à l’international",
+    description:
+      "Application de transfert d’argent à l’international.\n\nPour ce projet il a fallu, dans un premier temps, convaincre les parties prenantes au travers d’un POC avec un design qui a permis de s’assurer qu’il est possible de s’aligner sur les standards des leaders du marché (Revolut, Monzo…).\n\nPar la suite, j’ai participé à la production du design (volet progiciel Admin web full responsive, Design system) en collaboration avec les membres de l’équipe design.\n\nPlus tard j’ai pris en main l’ensemble du projet :\n- Landing\n- Application mobile\n- Designs annexes (templates de mails, documents de facturation)\n- Checkout page\n\nAfin d’assurer l’évolution et la continuité du produit selon la vision initialement identifiée en amont.",
+  },
+  zeney_admin: {
+    title: "zeney — admin",
+    subtitle: "Progiciel admin web full responsive",
+    description: "Volet admin Zeney : progiciel responsive de gestion globale de la plateforme.",
+  },
+  zeney_mobile: {
+    title: "zeney — mobile",
+    subtitle: "Application mobile client",
+    description: "Application mobile Zeney pour les transferts d’argent côté utilisateurs finaux.",
+  },
+  zeney_design_system: {
+    title: "zeney — design system",
+    subtitle: "Composants et fondations",
+    description: "Design system Zeney : composants, tokens et patterns réutilisables sur l’ensemble du produit.",
+  },
   betmomo: {
     title: "Site du festival betmomo",
     subtitle:
@@ -122,7 +143,7 @@ export default {
     title: "mesagoo",
     subtitle: "Plateforme de marketing ciblé",
     description:
-      "Plateforme de communication pour le marketing ciblé permettant de gérer des campagnes de diffusion de SMS, Email et WhatsApp.\n\nDans le cadre de ce projet j’ai construit successivement :\n- La charte graphique\n- Le design system\n- La landing page\n- Le design Client (web et mobile)\n- Le design Admin (web responsive)\n\nJ’ai également assuré le suivi du design pour les différentes évolutions fonctionnelles.",
+      "Plateforme de communication pour le marketing ciblé permettant de gérer des campagnes de diffusion de SMS, Email et WhatsApp.\n\nPour ce projet il a été question d’effectuer des recherches poussées sur le marché existant afin de se positionner au niveau des standards et d’y apporter une touche singulière sur les volets spécifiques.\n\nJ’ai construit successivement :\n- La charte graphique\n- Le design system\n- La landing page\n- Le design Client (web et mobile)\n- Le design Admin (web responsive)\n\nJ’ai également assuré le suivi du design pour les différentes évolutions fonctionnelles.",
   },
   mesagoo_admin: {
     title: "mesagoo — admin",

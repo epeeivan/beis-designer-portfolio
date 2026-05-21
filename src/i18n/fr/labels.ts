@@ -2,6 +2,7 @@ export default {
   i_am: "je suis",
   software: "logiciels",
   achievements: "Réalisations",
+  all: "tous",
   graphic_design: "design graphique",
   ui_ux: "ui ux",
   ui_ux_designer: "ui ux et graphic designer",

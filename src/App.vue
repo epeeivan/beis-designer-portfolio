@@ -15,10 +15,13 @@ const OG_IMAGE = `${SITE_URL}/images/projects/portfolio/ui_ux/landing/cover.webp
 
 const ROUTE_META = {
   home: { titleKey: "labels.ui_ux_designer" },
-  "home.ui-ux": { titleKey: "labels.websites" },
+  "home.ui-ux": { titleKey: "labels.all" },
+  "home.ui-ux.websites": { titleKey: "labels.websites" },
   "home.ui-ux.web-app": { titleKey: "labels.web_apps" },
   "home.ui-ux.apps": { titleKey: "labels.apps" },
-  "home.graphic-design": { titleKey: "labels.brand_identity" },
+  "home.ui-ux.design-systems": { titleKey: "labels.design_systems" },
+  "home.graphic-design": { titleKey: "labels.all" },
+  "home.graphic-design.brand-identity": { titleKey: "labels.brand_identity" },
   "home.graphic-design.catalogs": { titleKey: "labels.catalogs" },
   "home.resume": { titleKey: "labels.experiences" },
   "home.resume.schools": { titleKey: "labels.schools" },

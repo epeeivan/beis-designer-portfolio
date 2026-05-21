@@ -50,7 +50,7 @@ export default {
     title: "tchaza",
     subtitle: "Polymorphic CV platform",
     description:
-      "Polymorphic CV production platform. From a raw profile, it lets users derive variants (personal info, experience…) and decline the CV into several distinct versions.\n\nAs designer I produced:\n- The full brand identity\n- The design system\n- The landing design\n- The web client design\n- The mobile app design\n- Ongoing design follow-up",
+      "Polymorphic CV production platform. From a raw profile, it lets users derive variants (personal info, experience…) and decline the CV into several distinct versions.\n\nThe challenge here was to think first about mobile users (Mobile first), as most products on the market are not optimised for mobile devices. I had to think about how to represent the features by drawing inspiration from the apps the target audience uses daily, without distorting the product.\n\nOnce the thinking and direction were established, I produced:\n- The full brand identity\n- The design system\n- The landing design\n- The web client design\n- The mobile app design\n- Ongoing design follow-up",
   },
   tchaza_client: {
     title: "tchaza — client",
@@ -105,6 +105,27 @@ export default {
     description:
       "Web application for Empire Drive — managing operations, users and day-to-day workflows.",
   },
+  zeney: {
+    title: "Zeney",
+    subtitle: "International money transfer",
+    description:
+      "International money transfer application.\n\nFor this project, the first step was to convince the stakeholders through a POC whose design proved it was possible to align with the market leaders’ standards (Revolut, Monzo…).\n\nI then took part in the design production (admin web full-responsive enterprise tool, Design system) in collaboration with the design team members.\n\nLater I took over the whole project:\n- Landing\n- Mobile application\n- Auxiliary designs (email templates, invoicing documents)\n- Checkout page\n\nTo ensure the product’s evolution and continuity in line with the vision initially identified upstream.",
+  },
+  zeney_admin: {
+    title: "zeney — admin",
+    subtitle: "Full-responsive admin web tool",
+    description: "Zeney admin module: full-responsive enterprise tool for managing the whole platform.",
+  },
+  zeney_mobile: {
+    title: "zeney — mobile",
+    subtitle: "Mobile client app",
+    description: "Zeney mobile app for end users to transfer money.",
+  },
+  zeney_design_system: {
+    title: "zeney — design system",
+    subtitle: "Components and foundations",
+    description: "Zeney design system: reusable components, tokens and patterns across the whole product.",
+  },
   betmomo: {
     title: "betmomo festival website",
     subtitle: "site to win tickets for the 2023 betmomo festival",
@@ -121,7 +142,7 @@ export default {
     title: "mesagoo",
     subtitle: "Targeted marketing platform",
     description:
-      "Communication platform for targeted marketing that lets users manage SMS, Email and WhatsApp broadcast campaigns.\n\nAs part of this project I successively built:\n- The brand identity\n- The design system\n- The landing page\n- The Client design (web and mobile)\n- The Admin design (responsive web)\n\nI also led the design follow-up for subsequent feature evolutions.",
+      "Communication platform for targeted marketing that lets users manage SMS, Email and WhatsApp broadcast campaigns.\n\nThis project required in-depth research on the existing market to position the product at industry standards while bringing a distinctive touch to specific areas.\n\nI successively built:\n- The brand identity\n- The design system\n- The landing page\n- The Client design (web and mobile)\n- The Admin design (responsive web)\n\nI also led the design follow-up for subsequent feature evolutions.",
   },
   mesagoo_admin: {
     title: "mesagoo — admin",
