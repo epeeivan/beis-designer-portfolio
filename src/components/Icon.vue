@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import {
+  Briefcase,
+  ChevronLeft,
+  ChevronRight,
   ExternalLink,
   Figma,
   FileX,
@@ -9,11 +12,15 @@ import {
   Maximize2,
   Moon,
   Pencil,
+  Share2,
   Sun,
   X,
 } from "lucide-vue-next";
 
 const icons = {
+  Briefcase,
+  ChevronLeft,
+  ChevronRight,
   ExternalLink,
   Figma,
   FileX,
@@ -22,6 +29,7 @@ const icons = {
   Maximize2,
   Moon,
   Pencil,
+  Share2,
   Sun,
   X,
 };

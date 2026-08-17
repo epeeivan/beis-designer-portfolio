@@ -33,4 +33,11 @@ export default {
   figma_owner: "figma propriétaire",
   see_website: "voir le site",
   open_figma: "ouvrir dans figma",
+  projects: "projets",
+  branding: "branding",
+  share: "partager",
+  tools: "outils",
+  recruit: "recruter",
+  contact: "me contacter",
+  available_for_hire: "BÉBÉ est disponible pour un recrutement",
 };

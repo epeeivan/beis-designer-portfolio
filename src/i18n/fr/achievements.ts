@@ -1,9 +1,9 @@
 export default {
   cocoonin: {
-    title: "cocoonin",
+    title: "Cocoonin, conciergerie de soins à domicile",
     subtitle: "Conciergerie de soins à domicile",
     description:
-      "Plateforme française professionnelle de conciergerie de soins à domicile pour les personnes âgées. La solution est répartie en deux modules principaux — Admin (gestion de la plateforme) et Mobile (patients et leurs assistants) — auxquels s’ajoute une landing page.\n\nPour le design il a fallu jumeler l’aspect fonctionnel (lisibilité et simplicité pour les utilisateurs âgés) à une atmosphère chaleureuse dans la charte graphique et le design d’interface afin de transmettre un sentiment de convivialité aux utilisateurs.",
+      "Plateforme française professionnelle de conciergerie de soins à domicile pour les personnes âgées. La solution est répartie en deux modules principaux : Admin (gestion de la plateforme) et Mobile (patients et leurs assistants), auxquels s’ajoute une landing page.\n\nPour le design il a fallu jumeler l’aspect fonctionnel (lisibilité et simplicité pour les utilisateurs âgés) à une atmosphère chaleureuse dans la charte graphique et le design d’interface afin de transmettre un sentiment de convivialité aux utilisateurs.",
   },
   cocoonin_admin: {
     title: "cocoonin — admin",
@@ -47,7 +47,7 @@ export default {
     description: "Design system Bewallet étendu à la landing, l’app web, l’admin et le mobile.",
   },
   tchaza: {
-    title: "tchaza",
+    title: "Tchaza, plateforme de CV polymorphe",
     subtitle: "Plateforme de CV polymorphe",
     description:
       "Plateforme de production de CV polymorphe. Elle permet, à partir d’un profil brut, d’obtenir des variantes (informations personnelles, expérience…) et de décliner le CV en plusieurs versions distinctes.\n\nLe défi ici a été de penser dans un premier temps aux utilisateurs mobiles (Mobile first), car la plupart des produits du marché ne sont pas optimisés sur les terminaux mobiles. Il a donc fallu réfléchir à comment représenter les fonctionnalités en s’inspirant des usages des applications utilisées au quotidien par le public cible, sans dénaturer le produit.\n\nUne fois la réflexion et les axes établis, j’ai produit :\n- La charte graphique complète\n- Le design system\n- Le design de la landing\n- Le design du client web\n- Le design de l’app mobile\n- Le suivi de l’évolution",
@@ -76,34 +76,34 @@ export default {
     description: "Charte graphique Tchaza : logo, typographie, palette de couleurs et règles d’usage.",
   },
   global_wine: {
-    title: "Global Wine",
+    title: "Global Wine, site vitrine",
     subtitle: "Site marketing",
     description:
       "Site internet marketing permettant de présenter l’entreprise Global Wine (rôle, mission, vision, histoire) et son vaste catalogue. Il permet également la prise de contact.\n\nLe but ici, en tant que designer, était de produire un site évoquant le raffinement et la classe associés aux produits, tout en respectant les couleurs de la marque.",
   },
   softsec_website: {
-    title: "SoftSec",
+    title: "SoftSec, site vitrine",
     subtitle: "Site marketing",
     description:
       "Site internet marketing permettant de présenter l’entreprise Soft Sec ainsi que son catalogue de services.\n\nLe but ici dans le design a été de présenter de façon cohérente toutes les informations, services, produits et réalisations de l’entreprise, de sorte à garder l’interface aérée et évocatrice du secteur d’activité.",
   },
   rapid_services: {
-    title: "Rapid Services",
-    subtitle: "Site marketing — refonte",
+    title: "Rapid Services, site vitrine",
+    subtitle: "Refonte du site marketing",
     description:
-      "Site internet marketing permettant de présenter l’entreprise Rapid Service ainsi que son catalogue de services.\n\nLe but ici dans le design a été de mettre en avant l’activité de l’entreprise sans qu’elle ne soit confondue au secteur de ses partenaires — pour éviter d’apparaître maladroitement comme un concurrent pour ces derniers — tout en mettant à l’honneur le facteur humain et leurs connexions.\n\nEn partant de leur site existant, j’ai effectué une refonte complète selon les couleurs de l’entreprise représentées dans le logo.",
+      "Site internet marketing permettant de présenter l’entreprise Rapid Service ainsi que son catalogue de services.\n\nLe but ici dans le design a été de mettre en avant l’activité de l’entreprise sans qu’elle ne soit confondue au secteur de ses partenaires (pour éviter d’apparaître maladroitement comme un concurrent), tout en mettant à l’honneur le facteur humain et leurs connexions.\n\nEn partant de leur site existant, j’ai effectué une refonte complète selon les couleurs de l’entreprise représentées dans le logo.",
   },
   tatami_games: {
-    title: "Tatami Games",
+    title: "Tatami Games, site du jeu vidéo",
     subtitle: "Site internet du jeu Tatami",
     description:
       "Site internet du jeu Tatami. En tant que designer, il a été question pour moi de produire un site internet qui permettrait aux visiteurs soit de découvrir l’univers du jeu (pour ceux qui ne le connaissent pas), soit de se retrouver dans un univers familier (pour les joueurs).\n\nIl a donc fallu :\n- Reproduire les assets\n- Designer les animations du jeu\n- Reprendre le design system du jeu (boutons, polices…)\n\nPour que les utilisateurs soient vraiment transportés dans l’univers du jeu dès la landing.",
   },
   empire_drive: {
-    title: "Empire Drive",
+    title: "Empire Drive, application de gestion",
     subtitle: "Application web",
     description:
-      "Application web Empire Drive — gestion des opérations, des utilisateurs et des workflows quotidiens.",
+      "Application web Empire Drive pour la gestion des opérations, des utilisateurs et des workflows quotidiens.",
   },
   zeney: {
     title: "Zeney",
@@ -127,20 +127,20 @@ export default {
     description: "Design system Zeney : composants, tokens et patterns réutilisables sur l’ensemble du produit.",
   },
   betmomo: {
-    title: "Site du festival betmomo",
+    title: "Festival Betmomo, site événementiel",
     subtitle:
       "Site permettant de gagner des tickets pour le festival Betmomo de 2023",
     description:
       "Plateforme éphémère destinée à la réservation et au gain des tickets de concerts promotionnels organisés par le bookmaker BETMOMO (leader en Côte d’Ivoire) dans le but de son expansion au Cameroun.",
   },
   bewallet: {
-    title: "bewallet",
-    subtitle: "Module de recharge bewallet",
+    title: "Bewallet, agrégateur de paiement",
+    subtitle: "Agrégateur de paiement multi-moyens",
     description:
       "Il s’agit d’un module servant de canal aux utilisateurs du portefeuille électronique BEWALLET. Il a fallu repenser le processus de navigation ainsi que la présentation globale du module existant pour améliorer  l’expérience utilisateur.",
   },
   mesagoo: {
-    title: "mesagoo",
+    title: "Mesagoo, plateforme de marketing multicanal",
     subtitle: "Plateforme de marketing ciblé",
     description:
       "Plateforme de communication pour le marketing ciblé permettant de gérer des campagnes de diffusion de SMS, Email et WhatsApp.\n\nPour ce projet il a été question d’effectuer des recherches poussées sur le marché existant afin de se positionner au niveau des standards et d’y apporter une touche singulière sur les volets spécifiques.\n\nJ’ai construit successivement :\n- La charte graphique\n- Le design system\n- La landing page\n- Le design Client (web et mobile)\n- Le design Admin (web responsive)\n\nJ’ai également assuré le suivi du design pour les différentes évolutions fonctionnelles.",
@@ -185,7 +185,7 @@ export default {
       "TDans le cadre de son exercice l’entreprise multipresta qui réalise des prestations de services sur des machines complexes dans les sites de divers clients a eu besoin d’un outil dédié et taille pour les besoins spécifiques de leur activité. Nous avons donc produit un design global de leur plateforme en tenant compte des différents types d’utilisateurs qui disposent de présentations adaptées à leurs fonctions.",
   },
   portfolio: {
-    title: "Portfolio",
+    title: "Portfolio de designer",
     subtitle: "Galerie de réalisations",
     description:
       "Galerie de présentation web et responsive de mes réalisations, structurées selon le domaine de compétence (UI/UX Design, Graphic Design) et le sous-groupe de réalisation (Website, App web, Apps, Design system…).",
@@ -250,16 +250,16 @@ export default {
       "Il s’agit d’une mini plateforme web permettant pensé pour le besoin spécifique d’une entreprise, permettant la validation distante de documents.",
   },
   ahafreight: {
-    title: "ahafreight",
-    subtitle: "entreprise de transit",
+    title: "Ahafreight, identité d’un transitaire",
+    subtitle: "Entreprise de transit",
   },
   "237coachs_logo": {
-    title: "237coachs",
-    subtitle: "logo 237coachs",
+    title: "237Coachs, identité de marque",
+    subtitle: "Identité de marque",
   },
   apibundle: {
-    title: "api bundle",
-    subtitle: "Api de localisation des adresses ip ",
+    title: "API Bundle, identité de marque",
+    subtitle: "API de géolocalisation d’adresses IP",
   },
   dghome: {
     title: "dg home",
@@ -270,8 +270,8 @@ export default {
     subtitle: "Boutique de l’entreprise Fireshield.",
   },
   vitteck_logo: {
-    title: "vitteck",
-    subtitle: "vitteck digital agency",
+    title: "Vitteck, agence digitale",
+    subtitle: "Agence digitale",
   },
   oas: {
     title: "oas",
@@ -285,13 +285,13 @@ export default {
       "Nous avons conçu une brochure présentant de façon synthétique la vision, les produits et les services de la compagnie ahafreight.",
   },
   concord_brochure: {
-    title: "concord",
+    title: "Concord, brochure de services",
     subtitle: "Brochure de services",
     description:
       "Nous avons conçu une brochure présentant de façon synthétique la vision, les produits et les services de la compagnie concord.",
   },
   fireshield_formation_catalog: {
-    title: "Fireshield",
+    title: "Fireshield, catalogue de formations",
     subtitle: "Catalogue de formations",
     description:
       "Nous avons conçu un catalogue présentant de façon synthétique le large éventail de formations proposées par la compagnie.",

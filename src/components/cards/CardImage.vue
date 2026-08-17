@@ -1,16 +1,21 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import Badge from "@/components/Badge.vue";
-defineProps({
+import { resolveTools } from "@/assets/datas/tools";
+
+const props = defineProps({
   item: {
     type: Object,
     default: () => ({}),
   },
 });
+
+const resolvedTools = computed(() => resolveTools(props.item?.tools));
 </script>
 <template>
   <div class="space-y-2">
     <div :class="[
-      'overflow-hidden aspect-3/2 w-full rounded-lg flex bg-no-repeat bg-center ',
+      'group relative overflow-hidden aspect-3/2 w-full rounded-lg flex bg-no-repeat bg-center ',
       item.bg ? '' : 'bg-silver dark:bg-dark-300 ',
     ]" :style="[
         item?.cover
@@ -22,6 +27,13 @@ defineProps({
       ]">
       <img v-if="item.img" class="w-2/4 block m-auto" :src="`/images/${item?.img}`" :alt="$t(item?.title ?? '')"
         loading="lazy" decoding="async" />
+      <div v-if="resolvedTools.length"
+        class="absolute bottom-2 left-2 flex gap-1.5 opacity-0 translate-y-1 transition-all duration-200 ease-out group-hover:opacity-100 group-hover:translate-y-0">
+        <span v-for="(tool, i) in resolvedTools" :key="`card-tool-${i}`" :title="tool.label"
+          class="size-7 rounded-full bg-white/90 dark:bg-dark-300/90 backdrop-blur-sm shadow-sm flex items-center justify-center">
+          <img :src="tool.img" :alt="tool.label" class="size-4/6 object-contain" loading="lazy" decoding="async" />
+        </span>
+      </div>
     </div>
     <div class="flex flex-row space-x-2">
       <div class="flex flex-row mr-auto space-x-2">
@@ -35,7 +47,7 @@ defineProps({
             decoding="async"
           />
         </div>
-        <h1 class="font-semibold text-sm my-auto">{{ $t(item?.title ?? "") }}</h1>
+        <h1 class="font-oswald font-normal text-sm my-auto">{{ $t(item?.title ?? "") }}</h1>
       </div>
       <div class="space-x-2 my-auto">
         <slot name="badges">

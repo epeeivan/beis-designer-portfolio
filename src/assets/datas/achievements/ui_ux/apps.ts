@@ -5,6 +5,7 @@ export default [
     description: "achievements.mesagoo_mobile.description",
     logo: "projects/mesagoo/logo.webp",
     cover: "projects/mesagoo/ui_ux/mobile/cover.webp",
+    tools: ["figma"],
     badges: [
       {
         icon: "FileX",
@@ -18,6 +19,7 @@ export default [
     description: "achievements.cocoonin_mobile.description",
     logo: "projects/cocoonin/logo.webp",
     cover: "projects/cocoonin/ui_ux/mobile/cover.webp",
+    tools: ["figma"],
     badges: [
       {
         icon: "FileX",
@@ -31,6 +33,7 @@ export default [
     description: "achievements.bewallet_mobile.description",
     logo: "projects/bewallet/logo.webp",
     cover: "projects/bewallet/ui_ux/mobile/cover.webp",
+    tools: ["figma"],
     badges: [
       {
         icon: "FileX",
@@ -44,6 +47,7 @@ export default [
     description: "achievements.tchaza_mobile.description",
     logo: "projects/tchaza/logo.webp",
     cover: "projects/tchaza/ui_ux/mobile/cover.webp",
+    tools: ["figma"],
     badges: [
       {
         icon: "FileX",

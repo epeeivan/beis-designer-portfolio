@@ -9,20 +9,15 @@ const route = useRoute();
 const { t } = useI18n({ useScope: "global" });
 const { locale } = useLocale();
 
-const SITE_NAME = "BÉBÉ — Portfolio";
+const SITE_NAME = "BÉBÉ Portfolio";
 const SITE_URL = "https://beis-designer-portfolio.onrender.com";
 const OG_IMAGE = `${SITE_URL}/images/projects/portfolio/ui_ux/landing/cover.webp`;
 
 const ROUTE_META = {
   home: { titleKey: "labels.ui_ux_designer" },
-  "home.ui-ux": { titleKey: "labels.all" },
-  "home.ui-ux.websites": { titleKey: "labels.websites" },
-  "home.ui-ux.web-app": { titleKey: "labels.web_apps" },
-  "home.ui-ux.apps": { titleKey: "labels.apps" },
-  "home.ui-ux.design-systems": { titleKey: "labels.design_systems" },
-  "home.graphic-design": { titleKey: "labels.all" },
-  "home.graphic-design.brand-identity": { titleKey: "labels.brand_identity" },
-  "home.graphic-design.catalogs": { titleKey: "labels.catalogs" },
+  "home.projects": { titleKey: "labels.projects" },
+  "home.projects.ui-ux": { titleKey: "labels.ui_ux" },
+  "home.projects.branding": { titleKey: "labels.branding" },
   "home.resume": { titleKey: "labels.experiences" },
   "home.resume.schools": { titleKey: "labels.schools" },
 };
@@ -30,7 +25,7 @@ const ROUTE_META = {
 const pageTitle = computed(() => {
   const cfg = ROUTE_META[route.name];
   return cfg?.titleKey
-    ? `${t(cfg.titleKey)} — ${SITE_NAME}`
+    ? `${t(cfg.titleKey)} · ${SITE_NAME}`
     : SITE_NAME;
 });
 

@@ -41,5 +41,6 @@ export default [
     description: "achievements.tchaza_brand_identity.description",
     logo: "projects/tchaza/logo.webp",
     cover: "projects/tchaza/graphic/brand_identity/cover.webp",
+    tools: ["illustrator", "photoshop"],
   },
 ];

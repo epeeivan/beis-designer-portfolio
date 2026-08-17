@@ -23,16 +23,10 @@ const isFr = computed(() => locale.value === "fr");
 
 const menuItems = [
   {
-    text: "labels.ui_ux",
+    text: "labels.projects",
     src: "/images/icons/ui-ux/dark.webp",
     dark_src: "/images/icons/ui-ux/light.webp",
-    to: "home.ui-ux",
-  },
-  {
-    text: "labels.graphic_design",
-    src: "/images/icons/graphic/dark.webp",
-    dark_src: "/images/icons/graphic/light.webp",
-    to: "home.graphic-design",
+    to: "home.projects",
   },
   // {
   //   text: "labels.resume",

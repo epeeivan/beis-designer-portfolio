@@ -33,4 +33,11 @@ export default {
   figma_owner: "figma owner",
   see_website: "see website",
   open_figma: "open in figma",
+  projects: "projects",
+  branding: "branding",
+  share: "share",
+  tools: "tools",
+  recruit: "recruit",
+  contact: "contact me",
+  available_for_hire: "BÉBÉ is available for hire",
 };
